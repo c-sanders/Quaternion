@@ -82,7 +82,7 @@ result in values which reside on the k-axis.
 * #### What is a quaternion? A more detailed answer.
 
 
-
+* #### Further information about quaternions.
 
 For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
