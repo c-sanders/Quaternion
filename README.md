@@ -84,15 +84,29 @@ result in values which reside on the k-axis.
 
 So quaternions do not reside in a 3-dimensional space which is the imaginary number
 equivalent of the 3-dimensional Euclidean space which we mentioned just a moment ago.
-Instead, a quaternion's imaginary j and k axes, reside in a higher imaginary 
-dimensions or realms, which are beyond the quaternion's imaginary i-axis. This
-concept of higher imaginary dimensions or realms might seem a bit difficult to
-grasp at first, but don't stress too much about trying to understand it.
+Instead, a quaternion's imaginary j and k axes, reside in higher imaginary 
+dimensions or realms, which are beyond the quaternion's imaginary i-axis. Having said
+all of this however, it must be remembered that all three of these imaginary axes are
+mutually orthogonal to each other as well as to the real axis.
+
+This concept of higher imaginary dimensions or realms might seem a bit difficult to
+grasp at first, but don't stress too much about trying to understand it. It should
+eventually make sense with time.
 
 
 * #### Uses for quaternions.
 
-One of the key benefits
+One of the key benefits of quaternions and their three imaginary axes, is that they
+facilitate the elegant rotation of vectors around a 3-dimensional space.
+
+If we have a 3-dimensional vector v and a rotation quaternion q, then the result
+of applying the 3-dimensional rotation to the vector v, is the new vector
+v_new. Mathematically, this process is shown below, where q* denotes the conjugate
+of the rotation quaternion.
+
+```
+v_new = qvq*
+```
 
 * #### Further information about quaternions.
 
