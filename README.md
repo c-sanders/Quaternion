@@ -63,8 +63,9 @@ negative.
 
 If we have a number line which we label x, then the complex plane which is associated
 with this number line can be thought of as an extension to those numbers which reside 
-on this number line. That is, the expansion of this 1-d number line into a 2-d plane
-comes about as we expand natural numbers into their corresponding complex numbers.
+on this number line. That is, the expansion of this 1-dimensional number line into a 
+2-dimensional plane comes about as a consequence of expanding natural numbers into
+their corresponding complex numbers.
 
 
 * #### What a quaternion is not.
@@ -72,11 +73,18 @@ comes about as we expand natural numbers into their corresponding complex number
 But what would happen, if instead of a number line x, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
 x, y, and z? If we were to take the square root of the negative values on the
-x-axis, then that is not an issue - the results simply reside on the i-axis.
-But what if we were to take the square root of the negative values on the
+x-axis, then that is not an issue - the results will simply reside on the i-axis.
+But what would happen if we were to take the square root of the negative values on the
 y-axis? The answer is that the resulting values DO NOT reside on the j-axis.
 Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which reside on the k-axis.
+
+So quaternions do not reside in a 3-dimensional space which is the imaginary number
+equivalent of the 3-dimensioanl Euclidean space which we mentioned just a moment ago.
+Instead, a quaternion's imaginary j and k axes, reside in a higher imaginary 
+dimensions or realms, which are beyond the quaternion's imaginary i-axis. This
+concept of higher imaginary dimensions or realms might seem a bit difficult to
+grasp at first, but don't sweat on it too much.
 
 
 * #### What is a quaternion? A more detailed answer.
