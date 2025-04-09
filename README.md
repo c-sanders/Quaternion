@@ -63,7 +63,8 @@ problem of taking the square root of negative numbers.
 
 If we have a number line which we label x, then the complex plane which is associated
 with this number line can be thought of as an extension to the numbers which reside 
-on this number line, in order to compensate for their shortcomings which we just discussed.
+on this number line. That is, the expansion of this number line into a plane comes about 
+as a natural number expands into complex numbers.
 
 But what would happen, if instead of a number line x, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
