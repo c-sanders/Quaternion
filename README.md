@@ -79,6 +79,10 @@ Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which reside on the k-axis.
 
 
+* #### What is a quaternion? A more detailed answer.
+
+
+
 
 For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
