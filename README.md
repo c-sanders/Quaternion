@@ -53,7 +53,7 @@ You can see from this that if a given quaternion has values of c and d
 equal to 0, then it degenerates into a complex number.
 
 
-* #### What do quaternions actually mean?
+* #### Evolution of natural numbers to complex numbers.
 
 One of the reasons complex numbers exist, is because they compensate
 for a key shortcoming in the natural numbers, i.e. real numbers, integer numbers,
@@ -65,6 +65,9 @@ If we have a number line which we label x, then the complex plane which is assoc
 with this number line can be thought of as an extension to the numbers which reside 
 on this number line. That is, the expansion of this number line into a plane comes about 
 as a natural number expands into complex numbers.
+
+
+* #### What a quaternion is not.
 
 But what would happen, if instead of a number line x, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
