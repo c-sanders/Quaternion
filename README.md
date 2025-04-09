@@ -4,9 +4,9 @@
 * #### What is a quaternion?
 
 Quaternions are an example of a mathematical structure. Other, well known
-examples of mathematical structures are complex numbers and vectors.
-However, whereas a complex number is comprised of two
-parts - a real part and an imaginary part, a quaternion is omprised of
+examples of mathematical structures include complex numbers and vectors.
+However, whereas a complex numbers are comprised of two
+parts - a real part and an imaginary part, quaternions are comprised of
 four parts - a real part and three imaginary parts. These real parts are
 usually implemented as natural numbers, while the imaginary parts are usually
 implemented as imaginary numbers. As a quick aside, you should recall that
