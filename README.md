@@ -79,16 +79,20 @@ y-axis? The answer is that the resulting values DO NOT reside on the j-axis.
 Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which reside on the k-axis.
 
-So quaternions do not reside in a 3-dimensional space which is the imaginary number
-equivalent of the 3-dimensioanl Euclidean space which we mentioned just a moment ago.
-Instead, a quaternion's imaginary j and k axes, reside in a higher imaginary 
-dimensions or realms, which are beyond the quaternion's imaginary i-axis. This
-concept of higher imaginary dimensions or realms might seem a bit difficult to
-grasp at first, but don't sweat on it too much.
-
 
 * #### What is a quaternion? A more detailed answer.
 
+So quaternions do not reside in a 3-dimensional space which is the imaginary number
+equivalent of the 3-dimensional Euclidean space which we mentioned just a moment ago.
+Instead, a quaternion's imaginary j and k axes, reside in a higher imaginary 
+dimensions or realms, which are beyond the quaternion's imaginary i-axis. This
+concept of higher imaginary dimensions or realms might seem a bit difficult to
+grasp at first, but don't stress too much about trying to understand it.
+
+
+* #### Uses for quaternions.
+
+One of the key benefits
 
 * #### Further information about quaternions.
 
