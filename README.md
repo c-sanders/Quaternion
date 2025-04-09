@@ -12,14 +12,14 @@ usually implemented as natural numbers, while the imaginary parts are usually
 implemented as imaginary numbers. As a quick aside, you should recall that
 an imaginary number is defined as the square root of -1.
 
-Quaternions are most often described in a manner which is similar to the
+Quaternions are most often prsented in a manner which is similar to the
 following;
 
 ```
 q = a + ib + jc + kd
 ```
 
-where a represents the real part of the quaternion and ib + jc + kd
+where the a represents the real part of the quaternion and ib + jc + kd
 represents the imaginary parts of the quaternion. To help distinguish
 all four parts of a quaternion from each other, the unit values i, j,
 and k are used to help denote the numbers which are associated with each
@@ -29,10 +29,10 @@ and serve the same role for each of the other two imaginary parts of a
 quaternion as i does for the first imaginary part.
 
 Since i, j, and k are all equal to the square root of -1, we can state this
-fact rather succintly as follows;
+fact rather succinctly as follows;
 
 ```
-i^2 = j^2 = k^2 = -1
+ii = jj = kk = -1
 ```
 
 The real part of a quaternion, i.e. a, is often referred to as the scalar
