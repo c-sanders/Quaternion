@@ -1,0 +1,187 @@
+%
+% Document preamble
+%
+
+\documentclass[12pt, a4paper]{article}
+\title{Quaternions.}
+\author{Craig Sanders}
+% \date{April 2025 onwards}
+\setlength{\parindent}{0mm}
+
+\usepackage{amsmath}
+% Provides the * versions of \{equation} and \{align}
+
+%
+% Document body
+%
+
+\begin{document}
+
+\maketitle
+
+% ----------------------------------------
+% Chapter 1)
+% ----------------------------------------
+
+\newpage
+
+\section{What is a quaternion?}
+
+Recall that a complex number has the following general form;
+
+\begin{equation}\label{eqn:Complex_number_definition}
+c = a + ib
+\end{equation}
+
+We say general form, because other people may choose to represent complex
+numbers in a different manner.\\
+
+We can clearly see that this complex number is comprised of two components; a
+real part which is denoted by \(a\), and an imaginary part which is denoted by
+\(ib\). These two components can be thought of as being mutually orthogonal to
+one another.\\
+
+But what would happen if we were to extend this complex number by adding more
+imaginary components onto it? In particular, let's consider what would happen
+if we were to add two more imaginary components onto it. In this case, the
+number would now look as follows;
+
+\begin{equation}\label{eqn:Quaternion_definition}
+q = a + ib + jc + kd
+\end{equation}
+
+Since this number is comprised of multiple imaginary components, it belongs to
+a class of numbers that is known as hyper-complex numbers. More specifically, it
+is known as a quaterion since it is comprised of four components -- one real
+and three imaginary, and ``quat'' comes from the Latin word for four. This is
+the reason why the resulting number has now been assigned the letter `\(q\)',
+because it is the starting letter of the word ``quaternion''.
+
+
+% ----------------------------------------
+% Chapter 2)
+% ----------------------------------------
+
+\newpage
+
+\section{What a quaternion is not.}
+
+But what does a quaternion mean or represent exactly, and what what can it be
+used for?\\
+
+Before we attempt to answer that, let us first recall 3-d Euclidean space. That
+is, space which is often seen represented in mathematics textbooks with x, y and
+z axes. Now consider the function;
+
+\begin{equation}\label{eqn:0}
+f(x,y,z) = \sqrt{x} + \sqrt{y} + \sqrt{z}
+\end{equation}
+
+and what will happen if we have the situation where;
+
+\begin{equation*}
+x=y=z=1
+\end{equation*}
+
+One might be inclined to think that the solution to this particular problem
+would be;
+
+\begin{equation}\label{eqn:1}
+f(x,y,z) = i + j + k
+\end{equation}
+
+but this is not the case. Instead, the actual solution is;
+
+\begin{align}
+f(x,y,z) &= i + j + k \\
+         &= i3
+\end{align}
+
+The intended purpose of all this, is to try and demonstrate that quaternions are
+not -- repeat not, a 3-d imaginary number complement or equivalent of 3-d real
+numbers, as we saw just a moment ago. Instead, the additional two imaginary
+number axes which we added above, i.e. the \(j\) and \(k\) axes, represent even
+higher order imaginary dimensions than what is represented by the \(i\)-axis.
+Furthermore, we can't simply reach or get to these axes by taking the square
+root of either the \(y\) or the \(z\) values, as we saw just above.\\
+
+If the \(i\) axis represents numbers which reside in a higher order, domain, or
+realm than the real numbers, then the \(j\) axis represents numbers in an even
+higher order again; with the \(k\) axis taking it even one more step further.
+
+
+% ----------------------------------------
+% Chapter 2)
+% ----------------------------------------
+
+\newpage
+
+\section{Multiplying two quaternions together.}
+
+Imagine that we have two quaternions \(q_{1}\) and \(q_{2}\), which are defined
+as follows;
+
+\begin{align*}
+q_{1} = a_{1} + ib_{1} + jc_{1} + kd_{1} \\
+q_{2} = a_{2} + ib_{2} + jc_{2} + kd_{2}
+\end{align*}
+
+Multiplying the two of them together proceeds as follows;
+
+\begin{equation*}
+q_{1}q_{2} = (a_{1} + ib_{1} + jc_{1} + kd_{1})(a_{2} + ib_{2} + jc_{2} + kd_{2})
+\end{equation*}
+
+Expanding out the brackets yields;
+
+\begin{align*}
+q_{1}q_{2} = &a_{1}(a_{2}  + ib_{2} + jc_{2} + kd_{2}) + \\
+             &ib_{1}(a_{2} + ib_{2} + jc_{2} + kd_{2}) + \\
+             &jc_{1}(a_{2} + ib_{2} + jc_{2} + kd_{2}) + \\
+             &kd_{1}(a_{2} + ib_{2} + jc_{2} + kd_{2})
+\end{align*}
+
+which becomes;
+
+\begin{align*}
+q_{1}q_{2} = &a_{1}a_{2}   + ia_{1}b_{2}     + ja_{1}c_{2}     + ka_{1}d_{2}  + \\
+             &ib_{1}a_{2}  + i^{2}b_{1}b_{2} + ijb_{1}c_{2}    + ikb_{1}d_{2} + \\
+             &jc_{1}a_{2}  + jic_{1}b_{2}    + j^{2}c_{1}c_{2} + jkc_{1}d_{2} + \\
+             &kd_{1}a_{2}  + kid_{1}b_{2}    + kjd_{1}c_{2}    + k^{2}d_{1}d_{2}
+\end{align*}
+
+Applying the quaternion multiplication rules, i.e. \(ij = k\) and the
+like, gives;
+
+\begin{align*}
+q_{1}q_{2} = &a_{1}a_{2}  + ia_{1}b_{2} + ja_{1}c_{2} + ka_{1}d_{2} + \\
+             &ib_{1}a_{2} - b_{1}b_{2}  + kb_{1}c_{2} - jb_{1}d_{2} + \\
+             &jc_{1}a_{2} - kc_{1}b_{2} - c_{1}c_{2}  + ic_{1}d_{2} + \\
+             &kd_{1}a_{2} + jd_{1}b_{2} - id_{1}c_{2} - d_{1}d_{2}
+\end{align*}
+
+Grouping like terms together;
+
+\begin{align*}
+q_{1}q_{2} = &a_{1}a_{2}  - b_{1}b_{2}  - c_{1}c_{2}  - d_{1}d_{2}  + \\
+             &ia_{1}b_{2} + ib_{1}a_{2} + ic_{1}d_{2} - id_{1}c_{2} + \\
+             &ja_{1}c_{2} - jb_{1}d_{2} + jc_{1}a_{2} - jd_{1}b_{2} + \\
+             &ka_{1}d_{2} + kb_{1}c_{2} - kc_{1}b_{2} + kd_{1}a_{2}
+\end{align*}
+
+Taking common factors out;
+
+\begin{align*}
+q_{1}q_{2} = &\bigl(a_{1}a_{2}  - b_{1}b_{2} - c_{1}c_{2} - d_{1}d_{2}\bigr) + \\
+             &i\bigl(a_{1}b_{2} + b_{1}a_{2} + c_{1}d_{2} - d_{1}c_{2}\bigr) + \\
+             &j\bigl(a_{1}c_{2} - b_{1}d_{2} + c_{1}a_{2} + d_{1}b_{2}\bigr) + \\
+             &k\bigl(a_{1}d_{2} + b_{1}c_{2} - c_{1}b_{2} + d_{1}a_{2}\bigr)
+\end{align*}
+
+An alternate form for quaternion multiplication is as follows;
+
+\begin{align*}
+q_{1}q_{2} = a_{1}a_{2} - v_{1}v_{2},a_{1}v_{2} + a_{2}v_{1} + v_{1}\times v_{2}
+\end{align*}
+
+\end{document}
