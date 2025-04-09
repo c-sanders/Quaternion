@@ -35,15 +35,15 @@ fact rather succinctly - albeit in an alternate fashion, as follows;
 ii = jj = kk = -1
 ```
 
-The real part of a quaternion, i.e. a, is often referred to as the scalar
+The real part of a quaternion, that is a, is often referred to as the scalar
 part of a quaternion, while the three imaginary parts - when taken together,
 are referred to as the vector part of a quaternion.
 
 
-* #### Quaternions and complex numbers.
+* #### Quaternions and their relationship to complex numbers.
 
-Quaternions can be thought of as an extension to complex numbers, which
-are most often described in a manner which is similar to the following;
+Quaternions can be thought of as an extension to complex numbers, that latter of which
+are most often prsented in a manner which is similar to the following;
 
 ```
 c = a + ib
