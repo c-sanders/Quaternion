@@ -29,7 +29,7 @@ and serve the same role for each of the other two imaginary parts of a
 quaternion as i does for the first imaginary part.
 
 Since i, j, and k are all equal to the square root of -1, we can state this
-fact rather succinctly - albeit in an alternate fashion, as follows;
+fact rather succinctly - albeit in a slightly different manner, as follows;
 
 ```
 ii = jj = kk = -1
@@ -43,7 +43,7 @@ are referred to as the vector part of a quaternion.
 * #### Quaternions and their relationship to complex numbers.
 
 Quaternions can be thought of as an extension to complex numbers, that latter of which
-are most often prsented in a manner which is similar to the following;
+are most often presented in a manner which is similar to the following;
 
 ```
 c = a + ib
@@ -56,15 +56,15 @@ equal to 0, then it degenerates into a complex number.
 * #### Evolution of natural numbers to complex numbers.
 
 One of the reasons complex numbers exist, is because they compensate
-for a key shortcoming in the natural numbers, i.e. real numbers, integer numbers,
+for a critical shortcoming in the natural numbers, i.e. real numbers, integer numbers,
 fractions, and the like. This shortcoming is what we saw above - the
-inability of natural numbers to be able to provide a solution to the
-problem of taking the square root of negative numbers.
+inability to be able to take the square root of natural numbers when their value is
+negative.
 
 If we have a number line which we label x, then the complex plane which is associated
-with this number line can be thought of as an extension to the numbers which reside 
-on this number line. That is, the expansion of this number line into a plane comes about 
-as a natural number expands into complex numbers.
+with this number line can be thought of as an extension to those numbers which reside 
+on this number line. That is, the expansion of this 1-d number line into a 2-d plane
+comes about as we expand natural numbers into their corresponding complex numbers.
 
 
 * #### What a quaternion is not.
