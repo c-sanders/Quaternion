@@ -19,7 +19,7 @@ following;
 q = a + ib + jc + kd
 ```
 
-where the a represents the real part of the quaternion and ib + jc + kd
+where the `a` represents the real part of the quaternion and `ib + jc + kd`
 represents the imaginary parts of the quaternion. To help distinguish
 all four parts of a quaternion from each other, the unit values i, j,
 and k are used to help denote the numbers which are associated with each
