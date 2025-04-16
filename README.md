@@ -12,7 +12,7 @@ usually implemented as natural numbers, while the imaginary parts are usually
 implemented as imaginary numbers. As a quick aside, you should recall that
 an imaginary number is defined as the square root of -1.
 
-Quaternions are most often prsented in a manner which is similar to the
+Quaternions are most often presented in a manner which is similar to the
 following;
 
 ```
