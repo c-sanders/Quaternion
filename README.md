@@ -19,10 +19,10 @@ following;
 q = a + ib + jc + kd
 ```
 
-where the `a` represents the real part of the quaternion and `ib + jc + kd`
-represents the imaginary parts of the quaternion. To help distinguish
-all four parts of a quaternion from each other, the unit values i, j,
-and k are used to help denote the numbers which are associated with each
+where the `a` represents the real part of the quaternion and is referred to as a scalar, while the 
+`ib + jc + kd` represents the imaginary parts of the quaternion and is referred to as the vector.
+To help distinguish the three imaginary parts of a quaternion from each other as well as from the
+scalar, the unit values i, j, and k are used to help denote the numbers which are associated with each
 of a quaternion's three imaginary parts. i is simply equal to the square root of -1
 as we saw a moment ago, while j and k are also equal to the square root of -1
 and serve the same role for each of the other two imaginary parts of a
