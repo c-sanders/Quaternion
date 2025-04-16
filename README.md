@@ -3,6 +3,8 @@
 
 * #### What are quaternion?
 
+Poop
+
 Quaternions are an example of a mathematical structure. Other, well known
 examples of mathematical structures include complex numbers and vectors.
 However, whereas a complex numbers are comprised of two
