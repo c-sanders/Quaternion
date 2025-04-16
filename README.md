@@ -3,54 +3,53 @@
 
 * #### What are quaternions?
 
-Quaternions are an example of a mathematical structure. Other, well known
-examples of mathematical structures include complex numbers and vectors.
-However, whereas complex numbers are comprised of two
-parts - a real part and an imaginary part, quaternions are comprised of
-four parts - a real part and three imaginary parts. The real part is
-usually implemented as a natural number, while the imaginary parts are usually
-implemented as imaginary numbers - no big surprise there. As a quick aside, you should recall that
-an imaginary number is defined as the square root of -1.
+Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
+structures include complex numbers and vectors. However, whereas complex numbers are comprised of
+two parts - a real part and an imaginary part, quaternions are comprised of four parts - a real part
+and three imaginary parts. The real part is usually implemented as a natural number, while the
+imaginary parts are usually implemented as imaginary numbers - no big surprise there. As a quick
+aside, you should recall that an imaginary number is defined as the square root of -1.
 
-Quaternions are most often presented in a manner which is similar to the
+Quaternions are most often presented in the literature, in a manner which is similar to the
 following;
 
 ```
 q = a + ib + jc + kd
 ```
 
-where the `a` represents the real part of the quaternion and is referred to as a scalar, while the 
-`ib + jc + kd` represents the imaginary parts of the quaternion and is referred to as the vector.
-To help distinguish the three imaginary parts of a quaternion from each other as well as from the
-scalar, the unit values i, j, and k are used to help denote the numbers which are associated with each
-of a quaternion's three imaginary parts. i is simply equal to the square root of -1
-as we saw a moment ago, while j and k are also equal to the square root of -1
-and serve the same role for each of the other two imaginary parts of a
-quaternion as i does for the first imaginary part.
+where the `a` represents the real part of a quaternion and is referred to as a scalar, while 
+`ib + jc + kd` represent the imaginary parts of a quaternion and are referred to collectively, as a
+vector. To help distinguish the three imaginary parts of a quaternion from each other - as well as
+from the scalar, the unit values i, j, and k are associated with each of a quaternion's three
+imaginary parts. i is simply equal to the square root of -1 as we saw a moment ago, while j and k
+are also equal to the square root of -1 and serve the same role for each of the other two imaginary
+parts of a quaternion as i does for the first imaginary part.
 
 Since i, j, and k are all equal to the square root of -1, we can state this
-fact rather succinctly - albeit in a slightly different manner, as follows;
+fact rather succinctly - albeit in a slightly different manner - as follows;
 
 ```
 ii = jj = kk = -1
 ```
 
-The real part of a quaternion, that is a, is often referred to as the scalar
-part of a quaternion, while the three imaginary parts - when taken together,
-are referred to as the vector part of a quaternion.
+You can probably gather by now, why quaternions are called such. That is because they are comprised
+of four parts, and "quat" comes from Latin for four.
 
 
 * #### Quaternions and their relationship to complex numbers.
 
-Quaternions can be thought of as an extension to complex numbers, that latter of which
-are most often presented in a manner which is similar to the following;
+Quaternions can be thought of as an extension to complex numbers, the latter of which
+are most often presented in the literature in a manner which is similar to the following;
 
 ```
 c = a + ib
 ```
 
-You can see from this that if a given quaternion has values of c and d
-equal to 0, then it degenerates into a complex number.
+You can see from this that if a given quaternion has values of c and d equal to 0, then it
+degenerates into a complex number. Since quaternions are an extension to complex numbers,
+they are often referred to as "hypercomplex numbers". Other examples of hypercomplex numbers
+include octonions and sedenions, and just as quaternions are examples of mathematical structures, so
+too are octonions and sedenions.
 
 
 * #### Evolution of natural numbers to complex numbers.
