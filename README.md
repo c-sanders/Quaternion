@@ -1,7 +1,7 @@
 ## README.md file for project Quaternion
 
 
-* #### What is a quaternion?
+* #### What are quaternion?
 
 Quaternions are an example of a mathematical structure. Other, well known
 examples of mathematical structures include complex numbers and vectors.
