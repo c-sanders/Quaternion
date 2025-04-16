@@ -18,7 +18,7 @@ q = a + ib + jc + kd
 ```
 
 where the `a` represents the real part of a quaternion and is referred to as a scalar, while 
-`ib + jc + kd` represente the imaginary parts of a quaternion and are referred to collectively, as a
+`ib + jc + kd` represent the imaginary parts of a quaternion and are referred to collectively as a
 vector. To help distinguish the three imaginary parts of a quaternion from each other - as well as
 from the scalar, the unit values i, j, and k are associated with each of a quaternion's three
 imaginary parts. i is simply equal to the square root of -1 as we saw a moment ago, while j and k
