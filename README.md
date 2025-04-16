@@ -7,9 +7,9 @@ Quaternions are an example of a mathematical structure. Other, well known
 examples of mathematical structures include complex numbers and vectors.
 However, whereas complex numbers are comprised of two
 parts - a real part and an imaginary part, quaternions are comprised of
-four parts - a real part and three imaginary parts. These real parts are
-usually implemented as natural numbers, while the imaginary parts are usually
-implemented as imaginary numbers. As a quick aside, you should recall that
+four parts - a real part and three imaginary parts. The real part is
+usually implemented as a natural number, while the imaginary parts are usually
+implemented as imaginary numbers - no big surprise there. As a quick aside, you should recall that
 an imaginary number is defined as the square root of -1.
 
 Quaternions are most often presented in a manner which is similar to the
