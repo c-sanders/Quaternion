@@ -34,8 +34,8 @@ fact rather succinctly, albeit in a slightly different manner - as follows;
 ii = jj = kk = -1
 ```
 
-You can probably gather by now why quaternions are called such. If you haven't worked it out, it is
-because they are comprised of four parts, and "quat" comes from the Latin word for four.
+You can probably start to see now why quaternions are called such. If you haven't worked it out, it
+is because they are comprised of four parts, and "quat" comes from the Latin word for four.
 
 
 * #### Quaternions and their relationship to complex numbers.
