@@ -26,7 +26,7 @@ are also equal to the square root of -1 and serve the same role for each of the 
 parts of a quaternion as i does for the first imaginary part.
 
 Since i, j, and k are all equal to the square root of -1, we can state this
-fact rather succinctly - albeit in a slightly different manner - as follows;
+fact rather succinctly, albeit in a slightly different manner - as follows;
 
 ```
 ii = jj = kk = -1
