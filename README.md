@@ -6,9 +6,8 @@
 Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
 structures include complex numbers and vectors. However, whereas complex numbers are comprised of
 two parts - a real part and an imaginary part, quaternions are comprised of four parts - a real part
-and three imaginary parts. The real part is usually implemented as a natural number, while the
-imaginary parts are usually implemented as imaginary numbers - no big surprise there. As a quick
-aside, you should recall that an imaginary number is defined as the square root of -1.
+and three imaginary parts. As a quick aside, you should recall that an imaginary number is defined
+as the square root of -1.
 
 Quaternions are most often presented in the literature, in a manner which is similar to the
 following;
@@ -28,11 +27,11 @@ are also equal to the square root of -1 and serve the same role for each of the 
 parts of a quaternion as i does for the first imaginary part.
 
 Since i, j, and k are all equal to the square root of -1, we can state this
-fact rather succinctly, albeit in a slightly different manner - as follows;
+fact rather succinctly, as follows;
 
 $\sqrt{i} = \sqrt{j} = \sqrt{k} = -1$
 
-You can probably start to see now why quaternions are called such. If you haven't worked it out, it
+You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and "quat" comes from the Latin word for four.
 
 
