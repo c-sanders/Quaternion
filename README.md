@@ -31,7 +31,7 @@ Since i, j, and k are all equal to the square root of -1, we can state this
 fact rather succinctly, albeit in a slightly different manner - as follows;
 
 ```
-ii = jj = kk = -1
+$\sqrt{i} = \sqrt{j} = \sqrt{k} = -1$
 ```
 
 You can probably start to see now why quaternions are called such. If you haven't worked it out, it
