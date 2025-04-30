@@ -29,7 +29,9 @@ parts of a quaternion as i does for the first imaginary part.
 Since i, j, and k are all equal to the square root of -1, we can state this
 fact rather succinctly, as follows;
 
-$\sqrt{i} = \sqrt{j} = \sqrt{k} = -1$
+```math
+\sqrt{i} = \sqrt{j} = \sqrt{k} = -1
+```
 
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and "quat" comes from the Latin word for four.
