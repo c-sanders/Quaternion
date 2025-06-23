@@ -12,7 +12,7 @@ and quaternions, what we actually mean is a real number. Similarly, when we say 
 in this context, what we actually mean is an imaginary number.
 
 You might also recall that an imaginary number is usually denoted by the letter `i` and is defined
-as being equal to the ```math \sqrt{-1}``` square root of -1. That is;
+as being equal to the square root of -1. That is;
 
 ```math
 i = \sqrt{-1}
@@ -57,7 +57,7 @@ ijk = -1
 Quaternions are an extension of the complex numbers, the latter of which
 are most often presented in the literature in a manner which is similar to the following;
 
-```
+```math
 c = a + ib
 ```
 
@@ -97,9 +97,9 @@ result in values which are of the form k, -k2, k3.7 and the like.
 * #### What is a quaternion? A more detailed answer.
 
 So quaternions do not reside in a 3-dimensional space which is the imaginary number
-equivalent of the 3-dimensional Euclidean space which we mentioned just a moment ago.
+equivalent of the 3-dimensional Euclidean space which we saw in the previous section.
 Instead, a quaternion's imaginary j and k axes, reside in higher imaginary 
-dimensions or realms, which are beyond the quaternion's imaginary i-axis. Having said
+dimensions or realms, which are above and beyond the quaternion's imaginary i-axis. Having said
 all of this however, it must be remembered that all three of these imaginary axes are
 mutually orthogonal to each other as well as to the real axis.
 
