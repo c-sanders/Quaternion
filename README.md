@@ -149,6 +149,12 @@ The values of the axis components all need to be multiplied by;
 sin(\theta/2)
 ```
 
+That is;
+
+```math
+ib + jc + kd = sin(\theta/2)[x y z]
+```
+
 * #### Further information about quaternions.
 
 For more information about quaternions, please refer to the documentation
