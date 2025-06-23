@@ -12,7 +12,7 @@ and quaternions, what we actually mean is a real number. Similarly, when we say 
 in this context, what we actually mean is an imaginary number.
 
 You might also recall that an imaginary number is usually denoted by the letter `i` and is defined
-as being equal to the square root of -1. That is;
+as being equal to the ```math \sqrt{-1}``` square root of -1. That is;
 
 ```math
 i = \sqrt{-1}
