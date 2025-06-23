@@ -9,15 +9,16 @@ complex numbers are comprised of two parts - one real part and one imaginary par
 bit like complex numbers, but instead of being comprised of two parts, they are comprised of four - 
 one real part and three imaginary parts. When we say a "real part" in the context of complex numbers
 and quaternions, what we actually mean is a real number. Similarly, when we say an "imaginary part"
-in this context, what we actually mean is an imaginary number. You might also recall that an
-imaginary number is usually denoted by the letter `i` and is defined as being equal to the square
-root of -1. That is;
+in this context, what we actually mean is an imaginary number.
+
+You might also recall that an imaginary number is usually denoted by the letter `i` and is defined
+as being equal to the square root of -1. That is;
 
 ```math
 i = \sqrt{-1}
 ```
 
-Quaternions are most often presented within the literature, in a manner which is similar to the
+Quaternions are most often presented in the literature, using a format which is similar to the
 following;
 
 ```math
@@ -25,11 +26,11 @@ q = a + ib + jc + kd
 ```
 
 where the `a` represents the real part of a quaternion and is referred to as a scalar, while 
-`ib + jc + kd` represent the imaginary parts of a quaternion and are referred to collectively as a
-vector.
+`ib + jc + kd` represent the three imaginary parts of a quaternion and are referred to collectively
+as a vector.
 
-To help distinguish all three imaginary parts of a quaternion from one another - as well as
-from the scalar, the unit values `i`, `j`, and `k` are associated with each of a quaternion's three
+To help distinguish all three of these imaginary parts of a quaternion from one another - as well as
+from the scalar, the unit values `i`, `j`, and `k` are associated with each of the three
 imaginary parts. `i` is simply equal to the square root of -1 as we saw a moment ago, while `j` and `k`
 are also equal to the square root of -1 and serve the same role for each of the other two imaginary
 parts of a quaternion as `i` does for the first imaginary part.
