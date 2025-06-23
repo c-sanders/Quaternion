@@ -43,7 +43,7 @@ i^{2} = j^{2} = k^{2} = -1
 ```
 
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
-is because they are comprised of four parts, and "quat" comes from the Latin word for four.
+is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
 As an interesting aside, the following relationship also holds for `i`, `j`, and `k`.
 
