@@ -128,5 +128,5 @@ For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
 
 Another good source of information about both quaternions and vectors, is the book
-"Vector", by Robyn Arianrhod. More information about this book can be found here
-[Vector](https://isbnsearch.org/isbn/9780226821108)
+"Vector", by Robyn Arianrhod. More information about this book can be found
+[here](https://isbnsearch.org/isbn/9780226821108).
