@@ -66,11 +66,10 @@ too are octonions and sedenions.
 
 One of the reasons complex numbers exist, is because they compensate
 for a critical shortcoming in the natural numbers, i.e. real numbers, integer numbers,
-fractions, and the like. This shortcoming is what we saw above - the
-inability of the natural numbers to be able to have the square root of their value
-taken, when this value is negative.
+fractions, and the like. This shortcoming is what we glimpsed at above; the
+inability to be able to take the square root of the natural numbers, when their value is negative.
 
-If we have a number line which we label x, then the complex plane which is associated
+If we have a number line which we label `x`, then the complex plane which is associated
 with this number line can be thought of as an extension to those numbers which reside 
 on this number line. That is, the expansion of this 1-dimensional number line into a 
 2-dimensional plane comes about as a consequence of expanding natural numbers into
