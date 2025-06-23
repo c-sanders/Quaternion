@@ -29,7 +29,7 @@ where the `a` represents the real part of a quaternion and is referred to as a s
 `ib + jc + kd` represent the three imaginary parts of a quaternion and are referred to collectively
 as a vector.
 
-To help distinguish all three of these imaginary parts of a quaternion from one another - as well as
+To help distinguish all three of the imaginary parts of a quaternion from one another - as well as
 from the scalar, the unit values `i`, `j`, and `k` are associated with each of the three
 imaginary parts. `i` is simply equal to the square root of -1 as we saw a moment ago, while `j` and `k`
 are also equal to the square root of -1 and serve the same role for each of the other two imaginary
@@ -39,7 +39,7 @@ Since `i`, `j`, and `k` are all equal to the square root of -1, we can state thi
 fact rather succinctly, as follows;
 
 ```math
-i^{2} = j^{2} = k^{2} = ijk = -1
+i^{2} = j^{2} = k^{2} = -1
 ```
 
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
@@ -67,8 +67,8 @@ too are octonions and sedenions.
 One of the reasons complex numbers exist, is because they compensate
 for a critical shortcoming in the natural numbers, i.e. real numbers, integer numbers,
 fractions, and the like. This shortcoming is what we saw above - the
-inability to be able to take the square root of natural numbers when their value is
-negative.
+inability of the natural numbers to be able to have the square root of their value
+taken, when this value is negative.
 
 If we have a number line which we label x, then the complex plane which is associated
 with this number line can be thought of as an extension to those numbers which reside 
