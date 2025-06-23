@@ -45,10 +45,16 @@ i^{2} = j^{2} = k^{2} = -1
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and "quat" comes from the Latin word for four.
 
+As an interesting aside, the following relationship also holds for `i`, `j`, and `k`.
+
+```math
+ijk = -1
+```
+
 
 * #### Quaternions and their relationship to complex numbers.
 
-Quaternions can be thought of as an extension to complex numbers, the latter of which
+Quaternions are an extension of the complex numbers, the latter of which
 are most often presented in the literature in a manner which is similar to the following;
 
 ```
@@ -81,11 +87,11 @@ their corresponding complex numbers.
 But what would happen, if instead of a number line x, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
 x, y, and z? If we were to take the square root of the negative values on the
-x-axis, then that is not an issue - the results will simply reside on the i-axis.
+x-axis, then that is not an issue - the results will simply be of the form i, -i2, i3.7 and the like.
 But what would happen if we were to take the square root of the negative values on the
-y-axis? The answer is that the resulting values DO NOT reside on the j-axis.
+y-axis? The answer is that the resulting values are not of the form j, -j2, j3.7 and the like.
 Similarly, doing the same thing to the negative values on the z-axis does not
-result in values which reside on the k-axis.
+result in values which are of the form k, -k2, k3.7 and the like.
 
 
 * #### What is a quaternion? A more detailed answer.
