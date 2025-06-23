@@ -126,3 +126,6 @@ v_new = qvq*
 
 For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
+
+Another good source of information about both quaternions and vectors, is the book
+"Vector", by Robyn Arianrhod.
