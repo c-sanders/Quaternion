@@ -8,8 +8,8 @@ structures include complex numbers, vectors, and matrices - to name just a few. 
 complex numbers are comprised of two parts - a real part and an imaginary part, quaternions are
 comprised of four parts - a real part and three imaginary parts. When we say a real part, what we
 actually mean is a real number. Similarly, when we say an imaginary part, what we actually mean is
-is an imaginary number. You should recall that an imaginary number is defined as the square root
-of -1. That is;
+is an imaginary number. You should recall that an imaginary number is usually denoted by the letter
+`i` and is defined as the square root of -1. That is;
 
 ```math
 i = \sqrt{-1}
