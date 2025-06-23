@@ -5,10 +5,10 @@
 
 Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
 structures include complex numbers, vectors, and matrices - to name just a few. However, whereas
-complex numbers are comprised of two parts - a real part and an imaginary part, quaternions are
-comprised of four parts - a real part and three imaginary parts. When we say a real part, what we
-actually mean is a real number. Similarly, when we say an imaginary part, what we actually mean is
-an imaginary number.
+complex numbers are comprised of two parts - one real part and one imaginary part, quaternions are
+comprised of four parts - one real part and three imaginary parts. When we say a real part in this case,
+what we actually mean is a real number. Similarly, when we say an imaginary part in this case, what
+we actually mean is an imaginary number.
 
 You should recall that an imaginary number is usually denoted by the letter `i` and is defined as
 being equal to the square root of -1. That is;
@@ -17,7 +17,7 @@ being equal to the square root of -1. That is;
 i = \sqrt{-1}
 ```
 
-Quaternions are most often presented in the literature, in a manner which is similar to the
+Quaternions are most often presented within the literature, in a manner which is similar to the
 following;
 
 ```math
@@ -28,7 +28,7 @@ where the `a` represents the real part of a quaternion and is referred to as a s
 `ib + jc + kd` represent the imaginary parts of a quaternion and are referred to collectively as a
 vector.
 
-To help distinguish all of the three imaginary parts of a quaternion from each other - as well as
+To help distinguish all three imaginary parts of a quaternion from one another - as well as
 from the scalar, the unit values `i`, `j`, and `k` are associated with each of a quaternion's three
 imaginary parts. `i` is simply equal to the square root of -1 as we saw a moment ago, while `j` and `k`
 are also equal to the square root of -1 and serve the same role for each of the other two imaginary
