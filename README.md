@@ -141,9 +141,8 @@ The axis which we want to rotate the vector around, is placed into the remainder
 ib + jc + kd 
 ```
 
-However, it is not quite so straight forward to store the value of the axis.
-
-The values of the axis components all need to be multiplied by;
+However, it is not quite so straight forward to store the value of the axis in the rotation
+quaternion `q`. The values of the axis components all need to be multiplied by;
 
 ```math
 sin(\theta/2)
@@ -153,6 +152,31 @@ That is;
 
 ```math
 ib + jc + kd = sin(\theta/2)[x, y, z]
+```
+
+
+* #### Example rotation.
+
+Say we have the following vector;
+
+```math
+v = [1, 0, 0]
+```
+
+and we want to rotate it counter-clockwise 90 degrees around the z-axis. Since we are
+rotating counter-clockwise, our value of theta will be equal to -90 degrees, and because
+we rotating our vector around the z-axis, we will have;
+
+```math
+[0, 1, 0]
+```
+
+Putting this altogether yields a vector value for `q` equal to the following;
+
+```math
+ib + jc + kd = sin(-90/2)[0, 1, 0]
+             = 0.707[0, 1, 0]
+             = [0, 0.707, 0]
 ```
 
 * #### Further information about quaternions.
