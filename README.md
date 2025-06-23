@@ -126,13 +126,28 @@ But how do we construct the quaternion `q`, so that it represents our desired ro
 
 The quaternion `q` will need to encode both the axis which we want to rotate the vector around,
 along with the direction and angle of rotation. The latter value is placed into the
-quaternion's `a` value as;
+quaternion's `a` value, i.e. its scalar component, as follows;
 
 ```math
-a = cos{\theta/2}
+a = cos(\theta/2)
 ```
 
-where 
+where the value theta denotes the angle by which we want to rotate the vector around the given axis.
+
+The axis which we want to rotate the vector around, is placed into the remainder of the quaternion
+`q`, i.e. it is placed or stored in the quaternion's vector component. That is, it is placed into;
+
+```math
+ib + jc + kd 
+```
+
+However, it is not quite so straight forward to store the value of the axis.
+
+The values of the axis components all need to be multiplied by;
+
+```math
+sin(\theta/2)
+```
 
 * #### Further information about quaternions.
 
