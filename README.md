@@ -122,11 +122,23 @@ of the rotation quaternion.
 v_new = qvq*
 ```
 
+But how do we construct the quaternion `q`, so that it represents our desired rotation?
+
+The quaternion `q` will need to encode both the axis which we want to rotate the vector around,
+along with the direction and angle of rotation. The latter value is placed into the
+quaternion's `a` value as;
+
+```math
+a = cos{\theta/2}
+```
+
+where 
+
 * #### Further information about quaternions.
 
 For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
 
-Another good source of information about both quaternions and vectors, is the book
+A good source of information about both quaternions and vectors, is the book
 "Vector", by Robyn Arianrhod. More information about this book can be found
 [here](https://isbnsearch.org/isbn/9780226821108).
