@@ -171,12 +171,16 @@ we rotating our vector around the z-axis, we will have;
 [0, 1, 0]
 ```
 
-Putting this altogether yields a vector value for `q` equal to the following;
+Putting all of this together yields a vector value for `q` equal to the following;
 
 ```math
-ib + jc + kd &= sin(-90/2)[0, 1, 0]  \\
-             &= 0.707[0, 1, 0]       \\
-             &= [0, 0.707, 0]
+ib + jc + kd = sin(-90/2)[0, 1, 0]
+```
+
+which in turn becomes;
+
+```math
+ib + jc + kd = [0, 0.-707, 0]
 ```
 
 * #### Further information about quaternions.
