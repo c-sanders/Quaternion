@@ -152,7 +152,7 @@ sin(\theta/2)
 That is;
 
 ```math
-ib + jc + kd = sin(\theta/2)[x y z]
+ib + jc + kd = sin(\theta/2)[x, y, z]
 ```
 
 * #### Further information about quaternions.
