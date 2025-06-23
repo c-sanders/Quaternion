@@ -113,9 +113,9 @@ eventually make sense with time.
 One of the key benefits of quaternions and their three imaginary axes, is that they
 facilitate the elegant rotation of vectors around a 3-dimensional space.
 
-If we have a 3-dimensional vector v and a rotation quaternion q, then the result
-of applying the 3-dimensional rotation to the vector v, is the new vector
-v_new. Mathematically, this process is shown below, where q* denotes the conjugate
+If we have a 3-dimensional vector `v` and a quaternion `q` which represents the desired rotation
+in 3-dimensional space, then the result of applying `q` to the vector `v`, is the new vector
+`v_new`. Mathematically, this process is shown below, where `q*` denotes the conjugate
 of the rotation quaternion.
 
 ```
