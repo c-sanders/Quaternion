@@ -165,23 +165,45 @@ v = [1, 0, 0]
 
 and we want to rotate it counter-clockwise 90 degrees around the z-axis. Since we are
 rotating counter-clockwise, our value of theta will be equal to -90 degrees, and because
-we rotating our vector around the z-axis, we will have;
+we are rotating our vector around the z-axis, we will have;
 
 ```math
 [0, 1, 0]
 ```
 
-Putting all of this together yields a vector value for `q` equal to the following;
+The scalar part of `q` is easy enough to calculate. It is simply;
 
 ```math
-ib + jc + kd = sin(-90/2)[0, 1, 0]
+a = cos(-90/2)
+```
+
+which becomes;
+
+```math
+a = 0.707 
+```
+
+Now that we know `a`, we can combine it with the vector component of our rotation quaternion
+as follows;
+
+```math
+q = 0.707 + sin(-90/2)[0, 1, 0]
 ```
 
 which in turn becomes;
 
 ```math
-ib + jc + kd = [0, 0.-707, 0]
+q = 0.707 + i0 - j0.707 + k0
 ```
+
+Simplifying gives us the following value for `q`;
+
+```math
+q = 0.707 - j0.707
+```
+
+Since the conjugate of a quaternion is simply 
+
 
 * #### Further information about quaternions.
 
