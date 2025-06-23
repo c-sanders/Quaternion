@@ -30,7 +30,6 @@ Since i, j, and k are all equal to the square root of -1, we can state this
 fact rather succinctly, as follows;
 
 ```math
-i = j = k = \sqrt{-1}
 i^{2} = j^{2} = k^{2} = ijk = -1
 ```
 
