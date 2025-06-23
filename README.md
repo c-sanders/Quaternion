@@ -30,7 +30,8 @@ Since i, j, and k are all equal to the square root of -1, we can state this
 fact rather succinctly, as follows;
 
 ```math
-\sqrt{i} = \sqrt{j} = \sqrt{k} = -1
+i = j = k = \sqrt{-1}
+i^{2} = j^{2} = k^{2} = ijk = -1
 ```
 
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
