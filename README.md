@@ -52,7 +52,7 @@ ijk = -1
 ```
 
 
-* #### Quaternions and their relationship to complex numbers.
+* ### Quaternions and their relationship to complex numbers.
 
 Quaternions are an extension of the complex numbers, the latter of which
 are most often presented in the literature in a manner which is similar to the following;
@@ -68,7 +68,7 @@ include octonions and sedenions, and just as quaternions are examples of mathema
 too are octonions and sedenions.
 
 
-* #### Evolution of natural numbers to complex numbers.
+* ### Evolution of natural numbers to complex numbers.
 
 One of the reasons complex numbers exist, is because they compensate
 for a critical shortcoming in the natural numbers, i.e. real numbers, integer numbers,
@@ -82,7 +82,7 @@ on this number line. That is, the expansion of this 1-dimensional number line in
 their corresponding complex numbers.
 
 
-* #### What a quaternion is not.
+* ### What a quaternion is not.
 
 But what would happen, if instead of a number line x, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
@@ -94,7 +94,7 @@ Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which are of the form k, -k2, k3.7 and the like.
 
 
-* #### What is a quaternion?
+* ### What is a quaternion?
 
 So quaternions do not reside in a 3-dimensional space which is the imaginary number
 equivalent of the 3-dimensional Euclidean space which we saw in the previous section.
@@ -108,7 +108,7 @@ grasp at first, but don't stress too much about trying to understand it. It shou
 eventually make sense with time.
 
 
-* #### Using quaternions to calculate 3-dimensional rotations.
+* ### Using quaternions to calculate 3-dimensional rotations.
 
 One of the key benefits of quaternions and their three imaginary axes, is that they
 facilitate the elegant rotation of vectors around a 3-dimensional space.
@@ -123,10 +123,18 @@ v_new = qvq*
 ```
 
 But how do we construct the quaternion `q`, such that it represents our desired rotation?
+That is, the quaternion `q` will need to have encoded within its values, both the axis about
+which we want to rotate the vector, along with the direction and angle of rotation around
+this axis.
 
-The quaternion `q` will need to encode both the axis which we want to rotate the vector around,
-along with the direction and angle of rotation around this axis. The latter value is placed into the
-quaternion's `a` value, i.e. its scalar component, as follows;
+
+* #### Calculating the direction and angle of rotation for `q`.
+
+The direction and angle of rotation is represented by the Greek letter theta. Positive values
+of this angle represent a clockwise rotation about the axis, while negative values of this
+angle represent a counter-clockwise rotation about the axis. The angle of rotation is not
+placed directly into `a`, rather it is manipulated first - as outlined below, before it is
+stored in `a`.
 
 ```math
 a = cos(\theta/2)
@@ -155,7 +163,7 @@ ib + jc + kd = sin(\theta/2)[x, y, z]
 ```
 
 
-* #### Why is a quaternion conjugate necessary to accomplish a rotation?
+* ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
 According to the book Vector, by Robyn Arianrhod, the use of the quaternion conjugate
 is necessary, otherwise the resulting the value will veer off in the wrong direction
@@ -163,7 +171,7 @@ into 4-dimensional space. Multiplication by the quaternion conjugate brings the
 result back to where it should be.
 
 
-* #### Why are the components of the rotation quaternion defined the way they are?
+* ### Why are the components of the rotation quaternion defined the way they are?
 
 Why is it exactly that the scalar part and the vector part of a rotation quaternion
 are defined the way they are? That is, why is;
@@ -179,7 +187,7 @@ ib + jc + kd = sin(\theta/2)[x, y, z]
 ```
 
 
-* #### Example rotation.
+* ### Example rotation.
 
 Say we have the following vector;
 
@@ -248,7 +256,7 @@ v_new = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
 ```
 
 
-* #### Further information about quaternions.
+* ### Further information about quaternions.
 
 For more information about quaternions, please refer to the documentation
 in the doc sub-directory of this package.
