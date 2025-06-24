@@ -241,7 +241,7 @@ rotation will have the following form;
 The scalar part of `q` is easy enough to calculate. It is simply;
 
 ```math
-a = cos(-90/2)
+a = cos\left( -90/2 \right)
 ```
 
 which becomes;
@@ -254,7 +254,7 @@ Now that we know `a`, we can combine it with the vector component of our rotatio
 as follows;
 
 ```math
-q = 0.707 + sin(-90/2)[0, 1, 0]
+q = 0.707 + sin\left( -90/2 \right)[0, 1, 0]
 ```
 
 which in turn becomes;
@@ -273,13 +273,13 @@ Since the conjugate of any given quaternion is simply the value of the quaternio
 sign of all the imaginary components inverted, the conjugate in this case will be as follows;
 
 ```math
-q* = 0.707 + j0.707
+q^{*} = 0.707 + j0.707
 ```
 
 So putting all of this together, yields the following;
 
 ```math
-v_new = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
+v_{new} = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
 ```
 
 
