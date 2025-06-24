@@ -137,7 +137,7 @@ placed directly into `a`, rather it is transformed first - as outlined below, be
 value is stored in `a`.
 
 ```math
-a = cos(\theta/2)
+a = cos(\dfrac{\theta}{2})
 ```
 
 
