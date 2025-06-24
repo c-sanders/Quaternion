@@ -210,7 +210,7 @@ a = cos(\theta/2)
 and
 
 ```math
-ib + jc + kd = sin(\theta/2)[x, y, z]
+ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 ```
 
 
@@ -241,7 +241,7 @@ rotation will have the following form;
 The scalar part of `q` is easy enough to calculate. It is simply;
 
 ```math
-a = cos\left( -90/2 \right)
+a = cos\left( \frac{-90}{2} \right)
 ```
 
 which becomes;
@@ -254,7 +254,7 @@ Now that we know `a`, we can combine it with the vector component of our rotatio
 as follows;
 
 ```math
-q = 0.707 + sin\left( -90/2 \right)[0, 1, 0]
+q = 0.707 + sin\left( \frac{-90}{2} \right)[0, 1, 0]
 ```
 
 which in turn becomes;
