@@ -163,7 +163,7 @@ That is;
 ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 ```
 
-For example, if theta = 180 degrees, and [x, y, z] = [1, 1, 1], then we have;
+For example, if $\`theta = 180\circ\`$ and $\`[x, y, z] = [1, 1, 1]\`$, then we have;
 
 ```math
 ib + jc + kd = sin\left( \frac{180}{2} \right)[1, 1, 1]
