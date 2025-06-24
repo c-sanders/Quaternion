@@ -94,7 +94,7 @@ Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which are of the form k, -k2, k3.7 and the like.
 
 
-* #### What is a quaternion? A more detailed answer.
+* #### What is a quaternion?
 
 So quaternions do not reside in a 3-dimensional space which is the imaginary number
 equivalent of the 3-dimensional Euclidean space which we saw in the previous section.
@@ -108,7 +108,7 @@ grasp at first, but don't stress too much about trying to understand it. It shou
 eventually make sense with time.
 
 
-* #### Uses for quaternions.
+* #### Using quaternions to calculate 3-dimensional rotations.
 
 One of the key benefits of quaternions and their three imaginary axes, is that they
 facilitate the elegant rotation of vectors around a 3-dimensional space.
@@ -118,15 +118,17 @@ in 3-dimensional space, then the result of applying `q` to the vector `v`, is th
 `v_new`. Mathematically, this process is shown below, where `q*` denotes the conjugate
 of the rotation quaternion.
 
-```
+```new
 v_new = qvq*
 ```
 
-But how do we construct the quaternion `q`, so that it represents our desired rotation?
+But how do we construct the quaternion `q`, such that it represents our desired rotation?
 
 The quaternion `q` will need to encode both the axis which we want to rotate the vector around,
 along with the direction and angle of rotation. The latter value is placed into the
 quaternion's `a` value, i.e. its scalar component, as follows;
+
+> Calculating the scalar part of `q`.
 
 ```math
 a = cos(\theta/2)
@@ -153,6 +155,10 @@ That is;
 ```math
 ib + jc + kd = sin(\theta/2)[x, y, z]
 ```
+
+
+* #### Why is a quaternion conjugate necessary to accomplish a rotation?
+
 
 
 * #### Example rotation.
@@ -202,7 +208,13 @@ Simplifying gives us the following value for `q`;
 q = 0.707 - j0.707
 ```
 
-Since the conjugate of a quaternion is simply 
+Since the conjugate of a quaternion is simply the value of the quaternion, but with the
+sign of all the imaginary components inverted, the conjugate in this case will be as follows;
+
+```math
+q = 0.707 + j0.707
+```
+
 
 
 * #### Further information about quaternions.
