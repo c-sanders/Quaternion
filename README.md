@@ -204,7 +204,7 @@ Why is it exactly that the scalar part and the vector part of a rotation quatern
 are defined the way they are? That is, why is;
 
 ```math
-a = cos(\theta/2)
+a = cos\left( \frac{\theta}{2} \right)
 ```
 
 and
