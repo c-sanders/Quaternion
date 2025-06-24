@@ -119,7 +119,7 @@ in 3-dimensional space, then the result of applying `q` to the vector `v`, is th
 of the rotation quaternion.
 
 ```math
-v_{new} = qvq*
+v_{new} = qvq^{*}
 ```
 
 But how do we construct the quaternion `q`, such that it represents our desired rotation?
@@ -163,6 +163,7 @@ That is;
 ib + jc + kd = sin(\theta/2)[x, y, z]
 ```
 
+For example, if theta = 180 degrees, and [x, y, z] = [1, 1, 1],
 
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
