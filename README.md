@@ -166,8 +166,29 @@ ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 For example, if theta = 180 degrees, and [x, y, z] = [1, 1, 1], then we have;
 
 ```math
-
+ib + jc + kd = sin\left( \frac{180}{2} \right)[1, 1, 1]
 ```
+
+which becomes;
+
+```math
+ib + jc + kd = sin(90)[1, 1, 1]
+```
+
+then;
+
+```math
+ib + jc + kd = 1 \times [1, 1, 1]
+```
+
+and then;
+
+```math
+ib + jc + kd = [1, 1, 1]
+```
+
+
+
 
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
