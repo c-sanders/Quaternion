@@ -119,7 +119,7 @@ in 3-dimensional space, then the result of applying `q` to the vector `v`, is th
 of the rotation quaternion.
 
 ```math
-v_new = qvq*
+v_{new} = qvq*
 ```
 
 But how do we construct the quaternion `q`, such that it represents our desired rotation?
@@ -128,22 +128,23 @@ which we want to rotate the vector, along with the direction and angle of rotati
 this axis.
 
 
-* #### Calculating the direction and angle of rotation for `q`.
+* #### Encoding the direction and angle of rotation into `q`.
 
-The direction and angle of rotation is represented by the Greek letter theta. Positive values
-of this angle represent a clockwise rotation about the axis, while negative values of this
+The direction and angle of rotation about the axis is represented by the Greek letter theta. Positive values
+of this angle represent a clockwise rotation about the axis, whereas negative values of this
 angle represent a counter-clockwise rotation about the axis. The angle of rotation is not
-placed directly into `a`, rather it is manipulated first - as outlined below, before it is
-stored in `a`.
+placed directly into `a`, rather it is transformed first - as outlined below, before the resulting
+value is stored in `a`.
 
 ```math
 a = cos(\theta/2)
 ```
 
-where the value theta denotes the angle by which we want to rotate the vector around the given axis.
 
-The axis which we want to rotate the vector around, is placed into the remainder of the quaternion
-`q`, i.e. it is placed or stored in the quaternion's vector component. That is, it is placed into;
+* #### Encoding the axis of rotation into `q`.
+
+The axis which we want to rotate the vector around, is encoded into the vector part of the quaternion
+`q`. That is, it is encoded into;
 
 ```math
 ib + jc + kd 
@@ -166,7 +167,7 @@ ib + jc + kd = sin(\theta/2)[x, y, z]
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
 According to the book Vector, by Robyn Arianrhod, the use of the quaternion conjugate
-is necessary, otherwise the resulting the value will veer off in the wrong direction
+is necessary, otherwise the resulting value will veer off in the wrong direction
 into 4-dimensional space. Multiplication by the quaternion conjugate brings the 
 result back to where it should be.
 
