@@ -154,16 +154,20 @@ However, it is not quite so straight forward to store the value of the axis in t
 quaternion `q`. The values of the axis components all need to be multiplied by;
 
 ```math
-sin(\theta/2)
+sin\left( \frac{\theta}{2} \right)
 ```
 
 That is;
 
 ```math
-ib + jc + kd = sin(\theta/2)[x, y, z]
+ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 ```
 
-For example, if theta = 180 degrees, and [x, y, z] = [1, 1, 1],
+For example, if theta = 180 degrees, and [x, y, z] = [1, 1, 1], then we have;
+
+```math
+
+```
 
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
