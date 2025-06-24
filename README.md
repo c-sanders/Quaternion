@@ -1,7 +1,7 @@
 ## README.md file for project Quaternion
 
 
-* #### What are quaternions?
+* ### What are quaternions?
 
 Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
 structures include complex numbers, vectors, and matrices - to name just a few. You might recall that
@@ -118,17 +118,15 @@ in 3-dimensional space, then the result of applying `q` to the vector `v`, is th
 `v_new`. Mathematically, this process is shown below, where `q*` denotes the conjugate
 of the rotation quaternion.
 
-```new
+```math
 v_new = qvq*
 ```
 
 But how do we construct the quaternion `q`, such that it represents our desired rotation?
 
 The quaternion `q` will need to encode both the axis which we want to rotate the vector around,
-along with the direction and angle of rotation. The latter value is placed into the
+along with the direction and angle of rotation around this axis. The latter value is placed into the
 quaternion's `a` value, i.e. its scalar component, as follows;
-
-> Calculating the scalar part of `q`.
 
 ```math
 a = cos(\theta/2)
@@ -159,6 +157,26 @@ ib + jc + kd = sin(\theta/2)[x, y, z]
 
 * #### Why is a quaternion conjugate necessary to accomplish a rotation?
 
+According to the book Vector, by Robyn Arianrhod, the use of the quaternion conjugate
+is necessary, otherwise the resulting the value will veer off in the wrong direction
+into 4-dimensional space. Multiplication by the quaternion conjugate brings the 
+result back to where it should be.
+
+
+* #### Why are the components of the rotation quaternion defined the way they are?
+
+Why is it exactly that the scalar part and the vector part of a rotation quaternion
+are defined the way they are? That is, why is;
+
+```math
+a = cos(\theta/2)
+```
+
+and
+
+```math
+ib + jc + kd = sin(\theta/2)[x, y, z]
+```
 
 
 * #### Example rotation.
@@ -169,9 +187,17 @@ Say we have the following vector;
 v = [1, 0, 0]
 ```
 
-and we want to rotate it counter-clockwise 90 degrees around the z-axis. Since we are
-rotating counter-clockwise, our value of theta will be equal to -90 degrees, and because
-we are rotating our vector around the z-axis, we will have;
+and we want to rotate it counter-clockwise 90 degrees around the z-axis. When represented
+as a quaternion, this vector will look as follows;
+
+```math
+v = [0, 1, 0, 0]
+```
+
+Next, we should note that since we are attempting to rotate this vector in a counter-clockwise
+manner about our axis of interest, our value of theta will therefore be equal
+to -90 degrees. Also, because we are rotating our vector around the z-axis, our axis of
+rotation will have the following form;
 
 ```math
 [0, 1, 0]
@@ -208,13 +234,18 @@ Simplifying gives us the following value for `q`;
 q = 0.707 - j0.707
 ```
 
-Since the conjugate of a quaternion is simply the value of the quaternion, but with the
+Since the conjugate of any given quaternion is simply the value of the quaternion, but with the
 sign of all the imaginary components inverted, the conjugate in this case will be as follows;
 
 ```math
-q = 0.707 + j0.707
+q* = 0.707 + j0.707
 ```
 
+So putting all of this together, yields the following;
+
+```math
+v_new = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
+```
 
 
 * #### Further information about quaternions.
