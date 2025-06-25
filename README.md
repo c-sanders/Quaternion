@@ -130,7 +130,7 @@ this axis.
 
 * #### Encoding the direction and angle of rotation into `q`.
 
-The direction and angle of rotation about the axis is represented by the Greek letter $\theta$. Positive values
+The direction and angle of rotation about the axis is represented by the Greek letter $\Theta$. Positive values
 of this angle represent a clockwise rotation about the axis, whereas negative values of this
 angle represent a counter-clockwise rotation about the axis. The angle of rotation is not
 placed directly into `a`, rather it is transformed first - as outlined below, before the resulting
