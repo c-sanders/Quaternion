@@ -35,7 +35,7 @@ imaginary parts. `i` is simply equal to the square root of -1 as we saw a moment
 are also equal to the square root of -1 and serve the same role for each of the other two imaginary
 parts of a quaternion as `i` does for the first imaginary part.
 
-Since `i`, `j`, and `k` are all equal to the square root of -1, we can state this
+Since $i$, $j$, and $k$ are all equal to the square root of -1, we can state this
 fact rather succinctly, as follows;
 
 ```math
@@ -123,14 +123,16 @@ v_{rotated} = qvq^{*}
 ```
 
 But how do we construct the quaternion `q`, such that it will help facilitate our desired rotation?
-That is, how do we encode into the four values of the quaternion `q`, both the axis about
+That is, how do we encode into the four values which comprise the quaternion `q`, both the axis about
 which we want to rotate the vector, along with the direction and angle of rotation around
-this axis.
+this axis? Let's look at the latter issue first, before we discuss the problem of how to encode the
+axis of rotation into `q`. 
 
 
 * #### Encoding the direction and angle of rotation into `q`.
 
-The direction and angle of rotation about the axis is represented by the Greek letter $\theta$. Positive values
+We denote the direction and angle by which we want we want to rotate our vector,
+with the Greek letter $\theta$. Positive values
 of this angle represent a clockwise rotation about the axis, whereas negative values of this
 angle represent a counter-clockwise rotation about the axis. The angle of rotation is not
 placed directly into `a`, rather it is transformed first - as outlined below, before the resulting
