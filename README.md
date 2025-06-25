@@ -229,7 +229,7 @@ v = [0, 1, 0, 0]
 
 Next, we should note that since we are attempting to rotate this vector in a counter-clockwise
 manner about our axis of interest, our value of theta will therefore be equal
-to -90 degrees. Also, because we are rotating our vector around the z-axis, our axis of
+to \$-90\$ degrees. Also, because we are rotating our vector around the z-axis, our axis of
 rotation will have the following form;
 
 ```math
@@ -239,7 +239,7 @@ rotation will have the following form;
 The scalar part of `q` is easy enough to calculate. It is simply;
 
 ```math
-a = cos\left( \frac{-90}{2} \right)
+a = cos\left( \frac{-90^{\circ}}{2} \right)
 ```
 
 which becomes;
