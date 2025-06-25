@@ -152,7 +152,7 @@ ib + jc + kd
 
 We say that the axis needs to be "encoded", because we can't simply store the axis of rotation - or more
 specifically, the values which comprise the axis of rotation, directly into the quaternion `q`.
-Instead, we first need to multiply them by;
+Instead, we first need to multiply these values by;
 
 ```math
 sin\left( \frac{\theta}{2} \right)
