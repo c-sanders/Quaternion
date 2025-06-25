@@ -181,7 +181,7 @@ then;
 ib + jc + kd = 1 \times [1, 1, 1]
 ```
 
-and then;
+and finally;
 
 ```math
 ib + jc + kd = [1, 1, 1]
@@ -191,9 +191,9 @@ ib + jc + kd = [1, 1, 1]
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
 
 According to the book Vector, by Robyn Arianrhod, the use of the quaternion conjugate
-is necessary, otherwise the resulting value will veer off in the wrong direction
-into 4-dimensional space. Multiplication by the quaternion conjugate brings the 
-result back to where it should be.
+is necessary, otherwise the resulting value for the rotated vector, will veer off in
+the wrong direction in 4-dimensional space. Multiplication by the quaternion conjugate
+will bring the result back to where it should be.
 
 
 * ### Why are the components of the rotation quaternion defined the way they are?
