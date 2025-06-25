@@ -130,7 +130,7 @@ this axis.
 
 * #### Encoding the direction and angle of rotation into `q`.
 
-The direction and angle of rotation about the axis is represented by the Greek letter theta. Positive values
+The direction and angle of rotation about the axis is represented by the Greek letter $\theta$. Positive values
 of this angle represent a clockwise rotation about the axis, whereas negative values of this
 angle represent a counter-clockwise rotation about the axis. The angle of rotation is not
 placed directly into `a`, rather it is transformed first - as outlined below, before the resulting
@@ -163,7 +163,7 @@ That is;
 ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 ```
 
-For example, if $\`theta = 180\circ\`$ and $\`[x, y, z] = [1, 1, 1]\`$, then we have;
+For example, if $\theta = 180^{\circ}$ and $[x, y, z] = [1, 1, 1]$, then we have;
 
 ```math
 ib + jc + kd = sin\left( \frac{180}{2} \right)[1, 1, 1]
@@ -220,7 +220,7 @@ Say we have the following vector;
 v = [1, 0, 0]
 ```
 
-and we want to rotate it counter-clockwise 90 degrees around the z-axis. When represented
+and we want to rotate it counter-clockwise $90^{\circ}$ around the z-axis. When represented
 as a quaternion, this vector will look as follows;
 
 ```math
