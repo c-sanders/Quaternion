@@ -122,8 +122,8 @@ of the rotation quaternion.
 v_{rotated} = qvq^{*}
 ```
 
-But how do we construct the quaternion `q`, such that it represents our desired rotation?
-That is, the quaternion `q` will need to have encoded within its values, both the axis about
+But how do we construct the quaternion `q`, such that it will help facilitate our desired rotation?
+That is, how do we encode into the four values of the quaternion `q`, both the axis about
 which we want to rotate the vector, along with the direction and angle of rotation around
 this axis.
 
