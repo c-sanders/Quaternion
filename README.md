@@ -144,18 +144,21 @@ a = cos\left( \frac{\theta}{2} \right)
 * #### Encoding the axis of rotation into `q`.
 
 The axis which we want to rotate our vector around, needs to be encoded into the vector part of the quaternion
-`q`. That is, it is encoded into;
+`q`. That is, it needs to be encoded into;
 
 ```math
 ib + jc + kd 
 ```
 
-However, we can't simply store the axis of rotation - or more accurately the, values which comprise the 
-axis of rotation, directly into the quaternion `q`. Instead, we first need to multiply them by;
+We say that the axis needs to be "encoded", because we can't simply store the axis of rotation - or more
+specifically, the values which comprise the axis of rotation, directly into the quaternion `q`.
+Instead, we first need to multiply them by;
 
 ```math
 sin\left( \frac{\theta}{2} \right)
 ```
+
+before we can store them into the vector part of the quaternion `q`.
 
 That is;
 
