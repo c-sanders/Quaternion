@@ -25,15 +25,15 @@ following;
 q = a + ib + jc + kd
 ```
 
-where the `$a$` represents the real part of a quaternion and is referred to as a scalar, while 
+where the $a$ represents the real part of a quaternion and is referred to as a scalar, while 
 $ib + jc + kd$ represent the three imaginary parts of a quaternion and are referred to collectively
 as a vector.
 
 To help distinguish all three of the imaginary parts of a quaternion from one another - as well as
-from the scalar, the unit values `i`, `j`, and `k` are associated with each of the three
-imaginary parts. `i` is simply equal to the square root of -1 as we saw a moment ago, while `j` and `k`
+from the scalar, the unit values $i$, $j$, and $k$ are associated with each of the three
+imaginary parts. $i$ is simply equal to the square root of -1 as we saw a moment ago, while $j$ and $k$
 are also equal to the square root of -1 and serve the same role for each of the other two imaginary
-parts of a quaternion as `i` does for the first imaginary part.
+parts of a quaternion as $i$ does for the first imaginary part.
 
 Since $i$, $j$, and $k$ are all equal to the square root of -1, we can state this
 fact rather succinctly, as follows;
@@ -45,7 +45,7 @@ i^{2} = j^{2} = k^{2} = -1
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
-As an interesting aside, the following relationship also holds for `i`, `j`, and `k`.
+As an interesting aside, the following relationship also holds for $i$, $j$, and $k$.
 
 ```math
 ijk = -1
@@ -61,7 +61,7 @@ are most often presented in the literature in a manner which is similar to the f
 c = a + ib
 ```
 
-You can see from this that if a given quaternion has values of c and d equal to 0, then it
+You can see from this that if a given quaternion has values of $c$ and $d$ equal to 0, then it
 degenerates into a complex number. Since quaternions are an extension to complex numbers,
 they are often referred to as "hypercomplex numbers". Other examples of hypercomplex numbers
 include octonions and sedenions, and just as quaternions are examples of mathematical structures, so
@@ -75,7 +75,7 @@ for a critical shortcoming in the natural numbers, i.e. real numbers, integer nu
 fractions, and the like. This shortcoming is what we glimpsed at above; the
 inability to be able to take the square root of the natural numbers, when their value is negative.
 
-If we have a number line which we label `x`, then the complex plane which is associated
+If we have a number line which we label $x$, then the complex plane which is associated
 with this number line can be thought of as an extension to those numbers which reside 
 on this number line. That is, the expansion of this 1-dimensional number line into a 
 2-dimensional plane comes about as a consequence of expanding natural numbers into
@@ -84,10 +84,10 @@ their corresponding complex numbers.
 
 * ### What a quaternion is not.
 
-But what would happen, if instead of a number line x, we had a 3-dimensional
+But what would happen, if instead of a number line $x$, we had a 3-dimensional
 Euclidean space which was comprised of three mutually orthogonal axes labelled
-x, y, and z? If we were to take the square root of the negative values on the
-x-axis, then that is not an issue - the results will simply be of the form i, -i2, i3.7 and the like.
+$x$, $y$, and $z$? If we were to take the square root of the negative values on the
+x-axis, then that is not an issue - the results will simply be of the form $i$, $-i2$, $i3.7$ and the like.
 But what would happen if we were to take the square root of the negative values on the
 y-axis? The answer is that the resulting values are not of the form j, -j2, j3.7 and the like.
 Similarly, doing the same thing to the negative values on the z-axis does not
