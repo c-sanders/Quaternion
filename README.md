@@ -252,7 +252,7 @@ Now that we know `a`, we can combine it with the vector component of our rotatio
 as follows;
 
 ```math
-q = 0.707 + sin\left( \frac{-90}{2} \right)[0, 1, 0]
+q = 0.707 + sin\left( \frac{-90^{\circ}{2} \right)[0, 1, 0]
 ```
 
 which in turn becomes;
