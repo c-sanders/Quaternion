@@ -115,7 +115,7 @@ facilitate the elegant rotation of vectors around a 3-dimensional space.
 
 If we have a 3-dimensional vector `v` and a quaternion `q` which represents the desired rotation
 in 3-dimensional space, then the result of applying `q` to the vector `v`, is the new vector
-`v_new`. Mathematically, this process is shown below, where `q*` denotes the conjugate
+`$v_{rotated}`. Mathematically, this process is shown below, where `q*` denotes the conjugate
 of the rotation quaternion.
 
 ```math
@@ -166,13 +166,13 @@ ib + jc + kd = sin\left( \frac{\theta}{2} \right)[x, y, z]
 For example, if $\theta = 180^{\circ}$ and $[x, y, z] = [1, 1, 1]$, then we have;
 
 ```math
-ib + jc + kd = sin\left( \frac{180}{2} \right)[1, 1, 1]
+ib + jc + kd = sin\left( \frac{180^{\circ}}{2} \right)[1, 1, 1]
 ```
 
 which becomes;
 
 ```math
-ib + jc + kd = sin(90)[1, 1, 1]
+ib + jc + kd = sin(90^{\circ})[1, 1, 1]
 ```
 
 then;
