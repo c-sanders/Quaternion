@@ -25,8 +25,8 @@ following;
 q = a + ib + jc + kd
 ```
 
-where the `a` represents the real part of a quaternion and is referred to as a scalar, while 
-`ib + jc + kd` represent the three imaginary parts of a quaternion and are referred to collectively
+where the `$a$` represents the real part of a quaternion and is referred to as a scalar, while 
+$ib + jc + kd$ represent the three imaginary parts of a quaternion and are referred to collectively
 as a vector.
 
 To help distinguish all three of the imaginary parts of a quaternion from one another - as well as
