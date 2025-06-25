@@ -119,7 +119,7 @@ in 3-dimensional space, then the result of applying `q` to the vector `v`, is th
 of the rotation quaternion.
 
 ```math
-v_{new} = qvq^{*}
+v_{rotated} = qvq^{*}
 ```
 
 But how do we construct the quaternion `q`, such that it represents our desired rotation?
@@ -186,8 +186,6 @@ and then;
 ```math
 ib + jc + kd = [1, 1, 1]
 ```
-
-
 
 
 * ### Why is a quaternion conjugate necessary in order to calculate a rotation?
@@ -279,7 +277,7 @@ q^{*} = 0.707 + j0.707
 So putting all of this together, yields the following;
 
 ```math
-v_{new} = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
+v_{rotated} = [0.707, i0, -j0.707, k0][0, i1, j0, k0][0.707, i0, j0.707, k0]
 ```
 
 
