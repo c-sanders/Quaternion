@@ -94,7 +94,7 @@ Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which are of the form k, -k2, k3.7 and the like.
 
 
-* ### What is a quaternion?
+* ### What a quaternion is.
 
 So quaternions do not reside in a 3-dimensional space which is the imaginary number
 equivalent of the 3-dimensional Euclidean space which we saw in the previous section.
