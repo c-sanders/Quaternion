@@ -85,11 +85,14 @@ kj = -i
 ik = -j
 ```
 
-This non-commutative property of quaternions is rather interesting. If you think about what happens to
-an electric charge when it passes through a magnetic field, this is also non-commutative. A positive
+
+* ### Quaternion noncommutativity and electric charges moving in magnetic fields.
+
+This noncommutative property of quaternions is rather interesting. If you think about what happens to
+an electric charge when it passes through a magnetic field, this is also noncommutative. A positive
 charge moving through a magnetic field in a specific direction, will get deflected in a certain direction.
-However, if a negative charge moves through the exact same magnetic field, in the exact same direction,
-it will get deflected in a $180^{\circ}$ opposite direction.
+However, if a negative charge moves through this exact same magnetic field, in the exact same direction,
+then it will get deflected in a direction which is $180^{\circ}$ opposite.
  
 
 * ### Quaternions and their relationship to complex numbers.
