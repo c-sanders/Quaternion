@@ -35,6 +35,12 @@ imaginary parts. $i$ is simply equal to the $\sqrt{-1}$ as we saw a moment ago, 
 are also equal to the $\sqrt{-1}$ and serve the same role for each of the other two imaginary
 parts of a quaternion as $i$ does for the first imaginary part.
 
+You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
+is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
+
+As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
+as a "pure quaternion".
+
 
 * ### Basic laws pertaining to quaternions.
 
@@ -79,11 +85,11 @@ kj = -i
 ik = -j
 ```
 
-You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
-is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
-
-As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
-as a "pure quaternion".
+This non-commutative property of quaternions is rather interesting. If you think about what happens to
+an electric charge when it passes through a magnetic field, this is also non-commutative. A positive
+charge moving through a magnetic field in a specific direction, will get deflected in a certain direction.
+However, if a negative charge moves through the exact same magnetic field, in the exact same direction,
+it will get deflected in a $180^{\circ}$ opposite direction.
  
 
 * ### Quaternions and their relationship to complex numbers.
