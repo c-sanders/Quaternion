@@ -60,10 +60,11 @@ jk = i
 ki = j
 ```
 
-and if you plug anyone of these three equations into the former equation, then you end up with the equation
+and if you plug any one of these three equations into the former equation, then you end up with the equation
 before that.
 
-However, quaternions aren't commutative, so the following equations also hold true for quaternions;
+The act of multiplying quaternions together isn't commutative. This means that the following equations
+also hold true for quaternions;
 
 ```math
 ji = -k
@@ -78,6 +79,9 @@ ik = -j
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
+As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
+as a "pure quaternion".
+ 
 
 * ### Quaternions and their relationship to complex numbers.
 
