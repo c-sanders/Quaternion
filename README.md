@@ -51,8 +51,12 @@ ijk = -1
 This is because;
 
 ```math
-ij = k \\
-jk = i \\
+ij = k
+```
+```math
+jk = i
+```
+```math
 ki = j
 ```
 
