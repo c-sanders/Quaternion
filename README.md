@@ -35,6 +35,9 @@ imaginary parts. $i$ is simply equal to the $\sqrt{-1}$ as we saw a moment ago, 
 are also equal to the $\sqrt{-1}$ and serve the same role for each of the other two imaginary
 parts of a quaternion as $i$ does for the first imaginary part.
 
+
+* ### Basic laws regarding quaternions.
+
 Since $i$, $j$, and $k$ are all equal to the $\sqrt{-1}$, we can state this
 fact rather succinctly, as follows;
 
