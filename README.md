@@ -36,7 +36,7 @@ are also equal to the $\sqrt{-1}$ and serve the same role for each of the other 
 parts of a quaternion as $i$ does for the first imaginary part.
 
 
-* ### Basic laws regarding quaternions.
+* ### Basic laws pertaining to quaternions.
 
 Since $i$, $j$, and $k$ are all equal to the $\sqrt{-1}$, we can state this
 fact rather succinctly, as follows;
