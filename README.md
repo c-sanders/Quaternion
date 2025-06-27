@@ -6,12 +6,12 @@
 The field of mathematics contains many different types of mathemetical structures.
 Some of them - such as vectors, matrices, and complex numbers for example, are rather well known.
 Others however, are rather less well known, with quaternions being one such example.
-But what are quaternions exactly, and how is it that they act as a mathematical structue?
+But what are quaternions exactly, and how is it that they act as a mathematical structure?
 
-Let us begin to attempt to answer these questions, by first recalling that
+Let us attempt to answer these questions, by first recalling how
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
-alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of four - 
-one real part and three imaginary parts. When we say "real part" in the context of complex numbers
+alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of 
+four parts - one real and three imaginary. When we say "real part" in the context of complex numbers
 and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
 in this same context, what we actually mean is an imaginary number.
 
