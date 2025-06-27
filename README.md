@@ -11,7 +11,7 @@ But what are quaternions exactly, and how is it that they act as a mathematical 
 Let us attempt to answer these questions, by first recalling how
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
 alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of 
-four parts - one real and three imaginary. When we say "real part" in the context of complex numbers
+four - one real part and three imaginary parts. It is for this reason that quaternionsWhen we say "real part" in the context of complex numbers
 and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
 in this same context, what we actually mean is an imaginary number.
 
@@ -45,7 +45,7 @@ is because they are comprised of four parts, and the prefix "quater" comes from 
 As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
 as a "pure quaternion". The mathematical space which quaternions reside in - or inhabit, is known
 as the Hamiltonian $\mathbb{H}$. This space is named after the mathematician who invented quaternions,
-the Irishman William Rowan Hamilton. According to ChatGPT, $\mathbb{H}$ forms a real vector space of
+the Irishman William Rowan Hamilton. According to ChatGPT, $\Bbb{H}$ forms a real vector space of
 dimension 4, and has the following basis;
 
 ```math
