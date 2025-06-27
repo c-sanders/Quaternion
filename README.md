@@ -44,7 +44,7 @@ and which is named after the inventor of quaternions, William Rowan Hamilton. Ac
 $\mathbb{H}$ forms a real vector space of dimension 4, as has the following basis;
 
 ```math
-{1,i,j,k}
+\{1,i,j,k\}
 ```
 
 
