@@ -3,8 +3,12 @@
 
 * ### What are quaternions?
 
-Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
-structures include complex numbers, vectors, and matrices - to name just a few. You might recall that
+The field of mathematics contains a myriad of different types of mathemetical structures. 
+Some of these are rather well known. They include such structures as matrices, and complex numbers.
+Other examples of mathematical structures are less well known, with quaternions being one such example.
+But what are quaternions exactly, and how is it exactly that they behave as a mathematical structue?
+
+Let us begin to attempt to answer these questions, by recalling that
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
 just like complex numbers, but rather than being comprised of two parts, they are instead comprised of four - 
 one real part and three imaginary parts. When we say "real part" in the context of complex numbers
@@ -49,7 +53,7 @@ dimension 4, and has the following basis;
 ```
 
 
-* ### Basic laws pertaining to quaternions.
+* ### Some basic laws governing quaternions.
 
 Since $i$, $j$, and $k$ are all equal to the $\sqrt{-1}$, we can state this
 fact rather succinctly, as follows;
