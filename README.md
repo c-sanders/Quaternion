@@ -5,8 +5,8 @@
 
 Quaternions are an example of a mathematical structure. Other, well known examples of mathematical
 structures include complex numbers, vectors, and matrices - to name just a few. You might recall that
-complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are a
-bit like complex numbers, but rather than being comprised of two parts, they are instead comprised of four - 
+complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
+just like complex numbers, but rather than being comprised of two parts, they are instead comprised of four - 
 one real part and three imaginary parts. When we say "real part" in the context of complex numbers
 and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
 in this same context, what we actually mean is an imaginary number.
@@ -39,9 +39,10 @@ You can probably start to see by now why quaternions are called such. If you hav
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
 As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
-as a "pure quaternion". Quaternions inhabit the mathematical space known as the Hamiltonian $\mathbb{H}$,
-and which is named after the inventor of quaternions, William Rowan Hamilton. According to ChatGPT,
-$\mathbb{H}$ forms a real vector space of dimension 4, as has the following basis;
+as a "pure quaternion". The mathematical space which quaternions reside in - or inhabit, is known
+as the Hamiltonian $\mathbb{H}$. This space is named after the mathematician who invented quaternions,
+the Irishman William Rowan Hamilton. According to ChatGPT, $\mathbb{H}$ forms a real vector space of
+dimension 4, and has the following basis;
 
 ```math
 \{1,i,j,k\}
