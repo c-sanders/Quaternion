@@ -143,18 +143,20 @@ Euclidean space which was comprised of three mutually orthogonal axes labelled
 $x$, $y$, and $z$? If we were to take the square root of the negative values on the
 x-axis, then that is not an issue - the results will simply be of the form $i$, $-i2$, $i3.7$ and the like.
 But what would happen if we were to take the square root of the negative values on the
-y-axis? The answer is that the resulting values are not of the form j, -j2, j3.7 and the like.
+y-axis? The answer is that the resulting values are not of the form $j$, $-j2$, $j3.7$ and the like.
 Similarly, doing the same thing to the negative values on the z-axis does not
-result in values which are of the form k, -k2, k3.7 and the like.
+result in values which are of the form $k$, $-k2$, $k3.7$ and the like.
 
 
 * ### What a quaternion is.
 
-So quaternions do not reside in a 3-dimensional space which is the imaginary number
-equivalent of the 3-dimensional Euclidean space which we saw in the previous section.
-Instead, a quaternion's imaginary j and k axes, reside in higher imaginary 
-dimensions or realms, which are above and beyond the quaternion's imaginary i-axis. Having said
-all of this however, it must be remembered that all three of these imaginary axes are
+The vector part of quaternions do not reside in a 3-dimensional imaginary space which can be thought of as 
+the imaginary number equivalent of the 3-dimensional Euclidean space which we saw in the previous section, and
+which contains the $x$, $y$, and $z$ axes.
+Instead, a quaternion's imaginary $j$ and $k$ axes, reside in higher imaginary 
+dimensions or realms, which are beyond the quaternion's imaginary $i$-axis. Having said
+all of this however, it must be remembered that all three of the imaginary axes, i.e. $i$, $j$, and $k$ 
+that form a Hamiltoare
 mutually orthogonal to each other as well as to the real axis.
 
 This concept of higher imaginary dimensions or realms might seem a bit difficult to
