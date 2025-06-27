@@ -153,6 +153,21 @@ Similarly, doing the same thing to the negative values on the z-axis does not
 result in values which are of the form $k$, $-k2$, $k3.7$ and the like.
 
 
+* #### Mapping from the real number line onto the $j$ and $k$ axes.
+
+Consider the task of mapping numbers from the real number line onto the $j$ and $k$ axes.
+If we exclude the operations of multiplication and division, then there is no real
+was for us to map numbers from the real number line onto the $j$ and $k$ axes.
+
+That is, the following do not hold true ;
+
+```math
+\sqrt{-1} \mapsto j
+```
+```math
+\sqrt{-1} \mapsto k
+```
+
 * ### What a quaternion is.
 
 The vector part of quaternions do not reside in a 3-dimensional imaginary space which can be thought of as 
