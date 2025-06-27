@@ -39,7 +39,7 @@ You can probably start to see by now why quaternions are called such. If you hav
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
 As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
-as a "pure quaternion".
+as a "pure quaternion". Quaternions inhabit the mathematical space known as the Hamiltonian $\mathbb{H}$.
 
 
 * ### Basic laws pertaining to quaternions.
@@ -88,7 +88,12 @@ ik = -j
 
 * ### Quaternion noncommutativity and electric charges moving in magnetic fields.
 
-This noncommutative property of quaternions is rather interesting. If you think about what happens to
+NOTE SURE ABOUT THE FOLLOWING MATERIAL.
+
+This noncommutative property of quaternions is rather interesting. 
+
+The act of an electric charge moving through a magnetic field is also noncommutative.
+If you think about what happens to
 an electric charge when it passes through a magnetic field, this is also noncommutative. A positive
 charge moving through a magnetic field in a specific direction, will get deflected in a certain direction.
 However, if a negative charge moves through this exact same magnetic field, in the exact same direction,
