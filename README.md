@@ -4,10 +4,9 @@
 * ### What are quaternions?
 
 The field of mathematics contains many different types of mathemetical structures.
-Some of them are rather well known; structures such as vectors, matrices, and complex numbers for example.
-Other examples of mathematical structures however, are rather less well known, with quaternions being
-one such example. But what are quaternions exactly, and how is it that they act as a mathematical
-structue?
+Some of them - such as vectors, matrices, and complex numbers for example, are rather well known.
+Others however, are rather less well known, with quaternions being one such example.
+But what are quaternions exactly, and how is it that they act as a mathematical structue?
 
 Let us begin to attempt to answer these questions, by first recalling that
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
