@@ -39,7 +39,13 @@ You can probably start to see by now why quaternions are called such. If you hav
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
 As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
-as a "pure quaternion". Quaternions inhabit the mathematical space known as the Hamiltonian $\mathbb{H}$.
+as a "pure quaternion". Quaternions inhabit the mathematical space known as the Hamiltonian $\mathbb{H}$,
+and which is named after the inventor of quaternions, William Rowan Hamilton. According to ChatGPT,
+$\mathbb{H}$ forms a real vector space of dimension 4, as has the following basis;
+
+```math
+{1,i,j,k}
+```
 
 
 * ### Basic laws pertaining to quaternions.
