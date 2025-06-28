@@ -174,8 +174,6 @@ the opposite does not appear to hold true!
 For example;
 
 ```math
-\usepackage{amsmath}
-
 j^{2} = -1\sqrt{-1} \mapsto j
 ```
 
