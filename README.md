@@ -168,6 +168,18 @@ That is, the following do not hold true ;
 \sqrt{-1} \mapsto k
 ```
 
+This is interesting, because although we stated above that $j^{2} = -1$ and $k^{2} = -1$, 
+the opposite does not appear to hold true!
+
+For example;
+
+```math
+\usepackage{amsmath}
+
+j^{2} = -1\sqrt{-1} \mapsto j
+```
+
+
 * ### What a quaternion is.
 
 The vector part of quaternions do not reside in a 3-dimensional imaginary space which can be thought of as 
