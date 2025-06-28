@@ -391,4 +391,5 @@ Some good questions about quaternions along with their answers can be found on t
 StackExchange Mathematics website. In particular, have a look at the following
 specific questions;
 
-[this](https://math.stackexchange.com/questions/3693818/understanding-quaternions)
+[1) Understanding quaternions](https://math.stackexchange.com/questions/3693818/understanding-quaternions)
+[1) Would some of the solutions to this function be considered hypercomplex numbers?](https://math.stackexchange.com/questions/4843334/would-some-of-the-solutions-to-this-function-be-considered-hypercomplex-numbers)
