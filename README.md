@@ -174,7 +174,13 @@ the opposite does not appear to hold true!
 For example;
 
 ```math
-j^{2} = -1\sqrt{-1} \mapsto j
+j^{2} = -1
+```
+
+But if we take the square root of both sides, the result does not hold true;
+
+```math
+\sqrt{-1} \mapsto/ j
 ```
 
 
