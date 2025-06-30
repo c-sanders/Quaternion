@@ -184,7 +184,10 @@ to 1. For example
 Then, if $x=y=z=0.577$ we have;
 
 ```math
-magnitude = \sqrt{0.577^2 + 0.577^2 + 0.577^2}
+\sqrt{0.577^2 + 0.577^2 + 0.577^2}
+```
+```math
+\sqrt{\frac{1}{3} + \frac{1}{3} + \frac{1}{3}}
 ```
 
 
