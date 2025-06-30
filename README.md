@@ -57,8 +57,8 @@ $\mathbb{H}$ forms a 4-dimensional real vector space, and has the following basi
 
 * ### Some basic laws governing quaternions.
 
-Since $i$, $j$, and $k$ are all equal to the $\sqrt{-1}$, we can state this
-fact rather succinctly, as follows;
+The $i$, $j$, and $k$ in the definition of the quaternion above, are all equal to the $\sqrt{-1}$. As a
+result of this, we can state this fact rather succinctly, as follows;
 
 ```math
 i^{2} = j^{2} = k^{2} = -1
