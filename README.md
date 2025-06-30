@@ -161,17 +161,16 @@ In quaternion space, there are a number of solutions to the following problem;
 \pm\sqrt{-1}
 ```
 
-Some basic solutions are $i$, $j$, and $k$.
-
-Note that all three of these solutions have a magnitude of 1. So this begs the question then,
+Some basic solutions are $i$, $j$, and $k$. Note that all three of these solutions have a
+magnitude of 1. So this begs the question then,
 could we have a solution which is comprised of multiple parts, and whose magnitude is equal
 to 1? For example
 
 ```math
-|ix + jy|
+|ix + jy| = 1
 ```
 
-Then, if $x=y=0.707$ we have;
+The answer is yes, we can. Consider the scenario where $x=y=0.707$. In this case we have;
 
 ```math
 |ix + jy| = \sqrt{0.707^2 + 0.707^2}
@@ -557,3 +556,99 @@ This rotates the vector \(v\) according to the rotation encoded in \(q\).
 ---
 
 If you're curious, I can show how to perform a rotation using a specific quaternion and 3D vector, or how interpolation (like SLERP) works. Would you like a code example or a visual explanation?
+
+Yes, you're absolutely right — all the solutions to the square root of $-1$ in quaternion space **do form a sphere**, centered at the origin of the $i$, $j$, and $k$ axes.
+
+Let me explain in detail:
+
+---
+
+### **Background on Quaternions**
+
+A quaternion is typically written as:
+
+$$
+q = a + bi + cj + dk
+$$
+
+where:
+
+* $a, b, c, d \in \mathbb{R}$
+* $i, j, k$ are imaginary units with properties:
+
+  $$
+  i^2 = j^2 = k^2 = ijk = -1
+  $$
+
+---
+
+### **Looking for Square Roots of -1**
+
+We're looking for all quaternions $q$ such that:
+
+$$
+q^2 = -1
+$$
+
+Let:
+
+$$
+q = a + \mathbf{v}, \quad \text{where } \mathbf{v} = bi + cj + dk
+$$
+
+Then compute:
+
+$$
+q^2 = (a + \mathbf{v})^2 = a^2 + a\mathbf{v} + \mathbf{v}a + \mathbf{v}^2
+$$
+
+Since $a$ is real and commutes with $\mathbf{v}$, and $\mathbf{v}^2 = -|\mathbf{v}|^2$, we get:
+
+$$
+q^2 = a^2 + 2a\mathbf{v} - |\mathbf{v}|^2
+$$
+
+We want $q^2 = -1$, so:
+
+$$
+a^2 + 2a\mathbf{v} - |\mathbf{v}|^2 = -1
+$$
+
+This splits into scalar and vector parts:
+
+1. **Scalar part**: $a^2 - |\mathbf{v}|^2 = -1$
+2. **Vector part**: $2a\mathbf{v} = 0$
+
+---
+
+### **Solving the Vector Part**
+
+From $2a\mathbf{v} = 0$, we see:
+
+* Either $a = 0$, or
+* $\mathbf{v} = 0$
+
+If $\mathbf{v} = 0$, then $q = a$ is real, and then $q^2 = a^2$, which can never be $-1$, because the square of a real number is non-negative.
+
+So we **must** have $a = 0$. Then:
+
+$$
+q^2 = -|\mathbf{v}|^2 = -1 \quad \Rightarrow \quad |\mathbf{v}|^2 = 1
+$$
+
+---
+
+### **Conclusion**
+
+So:
+
+* $q = \mathbf{v} = bi + cj + dk$
+* $|\mathbf{v}|^2 = b^2 + c^2 + d^2 = 1$
+
+This is exactly the **unit sphere** in $\mathbb{R}^3$ formed by the imaginary components $i, j, k$.
+
+---
+
+### ? Final Answer
+
+Yes — all quaternion square roots of $-1$ lie on the **unit sphere in the purely imaginary subspace** of the quaternions (the $i,j,k$ space), centered at the origin.
