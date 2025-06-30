@@ -99,6 +99,16 @@ ik = -j
 ```
 
 
+* #### Unit quaternions and the sphere of solutions.
+
+On the 1-dimensional real number line, there is no solution to the problem of $\pm\sqrt{-1}$.
+
+In the 2-dimensional complex number plane, there are two solutions to the problem of $\pm\sqrt{-1}$.
+
+In the 4-dimensional real number space which forms the Hamiltonian, there are infinitely many solutions to the
+problem of $\pm\sqrt{-1}$. $i$ is one solution, but $j$ is also another solution, and so is $k$.
+
+
 * ### Quaternion noncommutativity and electric charges moving in magnetic fields.
 
 NOTE SURE ABOUT THE FOLLOWING MATERIAL.
