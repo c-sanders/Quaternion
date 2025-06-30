@@ -161,24 +161,20 @@ In quaternion space, there are a number of solutions to the following problem;
 \pm\sqrt{-1}
 ```
 
-Some basic solutions are;
-
-```math
-i
-```
-```math
-j
-```
-```math
-k
-```
+Some basic solutions are $i$, $j$, and $k$.
 
 Note that all three of these solutions have a magnitude of 1. So this begs the question then,
 could we have a solution which is comprised of multiple parts, and whose magnitude is equal
-to 1. For example
+to 1? For example
 
 ```math
-|ix + jy + kz|
+|ix + jy|
+```
+
+Then, if $x=y=0.707$ we have;
+
+```math
+|ix + jy| = \sqrt{0.707^2 + 0.707^2}
 ```
 
 Then, if $x=y=z=0.577$ we have;
