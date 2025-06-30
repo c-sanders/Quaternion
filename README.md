@@ -155,32 +155,25 @@ result in values which are of the form $k$, $-k2$, $k3.7$ and the like.
 
 * #### Mapping from the real number line onto the $j$ and $k$ axes.
 
-Consider the task of mapping numbers from the real number line onto the $j$ and $k$ axes.
-If we exclude the operations of multiplication and division, then there is no real
-was for us to map numbers from the real number line onto the $j$ and $k$ axes.
-
-That is, the following do not hold true ;
+In quaternion space, there are a number of solutions to the following problem;
 
 ```math
-\sqrt{-1} \mapsto j
-```
-```math
-\sqrt{-1} \mapsto k
+\pm\sqrt{-1}
 ```
 
-This is interesting, because although we stated above that $j^{2} = -1$ and $k^{2} = -1$, 
-the opposite does not appear to hold true!
-
-For example;
+Some basic solutions are;
 
 ```math
-j^{2} = -1
+i
 ```
-
-But if we take the square root of both sides, the result does not hold true;
-
 ```math
-\sqrt{-1} \mapsto/ j
+j
+```
+```math
+k
+```
+```math
+|ix + jy|
 ```
 
 
