@@ -11,7 +11,9 @@ But what are quaternions exactly, and how is it that they act as a mathematical 
 Let us attempt to answer these questions, by first recalling how
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
 alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of 
-four - one real part and three imaginary parts. It is for this reason that quaternionsWhen we say "real part" in the context of complex numbers
+four - one real part and three imaginary parts. It is for this reason that quaternions
+
+When we say "real part" in the context of complex numbers
 and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
 in this same context, what we actually mean is an imaginary number.
 
@@ -19,7 +21,7 @@ You might also recall that an imaginary number is usually denoted by the letter 
 as being equal to the square root of -1. That is;
 
 ```math
-i = \sqrt{-1}
+i = \pm\sqrt{-1}
 ```
 
 Quaternions are most often presented in the literature, using a format which is similar to the
@@ -42,11 +44,11 @@ parts of a quaternion as $i$ does for the first imaginary part.
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
 is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
 
-As an interesting aside, any quaternion which has its scalar part equal to 0, is referred to
-as a "pure quaternion". The mathematical space which quaternions reside in - or inhabit, is known
-as the Hamiltonian $\mathbb{H}$. This space is named after the mathematician who invented quaternions,
-the Irishman William Rowan Hamilton. According to ChatGPT, $\Bbb{H}$ forms a real vector space of
-dimension 4, and has the following basis;
+An interesting point which is worth making, is that any quaternion which has its scalar part equal to 0,
+is called a "pure quaternion". The mathematical space which quaternions reside in - or inhabit, is known
+as the Hamiltonian and is represented by the blackboard character $\mathbb{H}$. This space is named after
+the mathematician who invented quaternions, the Irishman William Rowan Hamilton. According to ChatGPT,
+$\mathbb{H}$ forms a 4-dimensional real vector space, and has the following basis;
 
 ```math
 \{1,i,j,k\}
