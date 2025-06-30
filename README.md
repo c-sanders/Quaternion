@@ -172,8 +172,19 @@ j
 ```math
 k
 ```
+
+Note that all three of these solutions have a magnitude of 1. So this begs the question then,
+could we have a solution which is comprised of multiple parts, and whose magnitude is equal
+to 1. For example
+
 ```math
-|ix + jy|
+|ix + jy + kz|
+```
+
+Then, if $x=y=z=0.577$ we have;
+
+```math
+magnitude = \sqrt{0.577^2 + 0.577^2 + 0.577^2}
 ```
 
 
