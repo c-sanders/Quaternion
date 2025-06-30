@@ -399,16 +399,16 @@ specific questions;
 #####
 
 Absolutely! Quaternions are an extension of complex numbers, and they're especially powerful
-in representing rotations in three dimensions. Let’s explore how they work and their practical
+in representing rotations in three dimensions. Let's explore how they work and their practical
 applications.
 
 
 
 ---
 
-## ?? **What Are Quaternions?
+## What Are Quaternions?
 
-**
+
 
 A **quaternion** is a mathematical object that extends complex numbers. It has one real part
 and three imaginary parts:
@@ -417,15 +417,23 @@ and three imaginary parts:
 q = a + bi + cj + dk
 \]
 
+
+
 Where:
+
+
 - \(a\) is the **real part**.
-- \(b\), \(c\), \(d\)
-are **imaginary coefficients**.
+
+- \(b\), \(c\), \(d\) are **imaginary coefficients**.
+
 - \(i, j, k\) are imaginary units with these rules:
   
 - \(i^2 = j^2 = k^2 = ijk = -1\)
-  - \(ij = k\), \(jk = i\), \(ki = j\)
-  - \(ji = -k\), \(kj = -i\),
+
+- \(ij = k\), \(jk = i\), \(ki = j\)
+  
+- \(ji = -k\), \(kj = -i\),
+
 \(ik = -j\)
 
 Quaternions are **non-commutative**, meaning \(pq \neq qp\) in general.
@@ -434,16 +442,25 @@ Quaternions are **non-commutative**, meaning \(pq \neq qp\) in general.
 
 ---
 
-## ?? **How Do Quaternions Work?**
+## **How Do Quaternions Work?**
+
+
 
 ### 1. **Basic Arithmetic**
+
+
 - **Addition/Subtraction:** 
 Component-wise.
-- **Multiplication:** Follows distributive rule with the multiplication rules of \(i, j, k\).
+
+
+- **Multiplication:** 
+Follows distributive rule with the multiplication rules of \(i, j, k\).
 
 
 
 ### 2. **Conjugate and Norm**
+
+
 - **Conjugate of** \(q = a + bi + cj + dk\) is:
   \[
   \bar{q} = a - bi - cj - dk
@@ -514,11 +531,15 @@ To rotate a 3D vector \( \vec{v} \) using a unit quaternion
    v' = q v q^{-1}
    \]
 
+
+
 This rotates the vector \(v\) according to the rotation encoded in \(q\).
+
+
 
 ---
 
-## ?? Real-World Applications
+## Real-World Applications
 
 | Field | Use Case |
 |-------|----------|
