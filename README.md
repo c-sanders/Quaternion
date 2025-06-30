@@ -387,7 +387,7 @@ A good source of information about both quaternions and vectors, is the book
 "Vector", by Robyn Arianrhod. More information about this book can be found
 [here](https://isbnsearch.org/isbn/9780226821108).
 
-Some good questions about quaternions along with their answers can be found on the
+Some good questions about quaternions, along with their answers, can be found on the
 StackExchange Mathematics website. In particular, have a look at the following
 specific questions;
 
