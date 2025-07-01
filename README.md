@@ -1,6 +1,5 @@
 ## README.md file for project Quaternion
 
----
 NOTE :
 
 If this file doesn't render properly in your browser, then please consider using another
@@ -8,7 +7,6 @@ browser to try and view it. Some of the mathematical symbols may cause problems 
 browsers, in particular when it comes to the rendering of the blackboard characters.
 
 See reference 1) for more information about this issue.
----
 
 
 * ### What are quaternions?
