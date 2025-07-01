@@ -1,5 +1,15 @@
 ## README.md file for project Quaternion
 
+---
+NOTE :
+
+If this file doesn't render properly in your browser, then please consider using another
+browser to try and view it. Some of the mathematical symbols may cause problems for certain
+browsers, in particular when it comes to the rendering of the blackboard characters.
+
+See reference 1) for more information about this issue.
+---
+
 
 * ### What are quaternions?
 
@@ -103,7 +113,9 @@ ik = -j
 
 On the 1-dimensional real number line, there is no solution to the problem of $\pm\sqrt{-1}$.
 
-In the 2-dimensional complex number plane, there are two solutions to the problem of $\pm\sqrt{-1}$.
+Over time, mathematicians overcame this shortcoming by developing imaginary numbers. From these
+imaginary numbers, complex numbers flowed.  which can't be represented on a real number line. Instead,
+they need to be represented in a 2-dimensional complex number plane, there are two solutions to the problem of $\pm\sqrt{-1}$.
 
 In the 4-dimensional real number space which forms the Hamiltonian, there are infinitely many solutions to the
 problem of $\pm\sqrt{-1}$. $i$ is one solution, but $j$ is also another solution, and so is $k$.
@@ -405,11 +417,17 @@ Some good questions about quaternions, along with their answers, can be found on
 StackExchange Mathematics website. In particular, have a look at the following
 specific questions;
 
-[1) Understanding quaternions](https://math.stackexchange.com/questions/3693818/understanding-quaternions)
+[1) How can I represent $\mathbb{character}$ in Github markdown?](https://stackoverflow.com/questions/79433588/how-can-i-represent-mathbbcharacter-in-github-markdown)
 
-[2) Would some of the solutions to this function be considered hypercomplex numbers?](https://math.stackexchange.com/questions/4843334/would-some-of-the-solutions-to-this-function-be-considered-hypercomplex-numbers)
+[2) Understanding quaternions](https://math.stackexchange.com/questions/3693818/understanding-quaternions)
 
-[3) What is the $\sqrt{-1}$ when working in a quaternion space?](https://math.stackexchange.com/questions/1641461/what-is-the-sqrt-1-when-working-in-a-quaternion-space)
+[3) Would some of the solutions to this function be considered hypercomplex numbers?](https://math.stackexchange.com/questions/4843334/would-some-of-the-solutions-to-this-function-be-considered-hypercomplex-numbers)
+
+[4) What is the $\sqrt{-1}$ when working in a quaternion space?](https://math.stackexchange.com/questions/1641461/what-is-the-sqrt-1-when-working-in-a-quaternion-space)
+
+[5) Action of $i,j,k$ on the sphere of unit quaternions](https://math.stackexchange.com/questions/5072364/action-of-i-j-k-on-the-sphere-of-unit-quaternions)
+
+[6) Visualizing quaternions](https://eater.net/quaternions/video/intro)
 
 
 #####
