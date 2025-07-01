@@ -3,8 +3,9 @@
 NOTE :
 
 If this file doesn't render properly in your browser, then please consider using another
-browser to try and view it. Some of the mathematical symbols may cause problems for certain
-browsers, in particular when it comes to the rendering of the blackboard characters.
+browser to try and view it. The reason this has been suggested, is because some of the
+mathematical symbols which are used within this file may cause problems for certain
+browsers, especially when it comes to the rendering of the blackboard characters.
 
 See reference 1) for more information about this issue.
 
