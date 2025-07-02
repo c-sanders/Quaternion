@@ -116,7 +116,7 @@ We saw above that;
 i^{2} = j^{2} = k^{2} = -1
 ```
 
-This then begs the question; if we take $\sqrt{-1}$, what is the answer? Is it $\pmi$, $\pmj$, or $\pmk$? Any
+This then begs the question; if we take $\sqrt{-1}$, what is the answer? Is it $\pm i$, $\pm j$, or $\pm k$? Any
 of them would appear to be possible. Furthermore, if we consider the $i$, $j$, and $k$ axes as forming 
 a 3-dimensional space, then any of these six points would appear to reside on the surface of a sphere whose radius is
 1, and which is centred on the origin.
