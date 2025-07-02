@@ -3,7 +3,7 @@
 NOTE :
 
 If this file doesn't render properly in your browser, then please consider using another
-browser to try and view it. The reason this has been suggested, is because some of the
+browser to try and view it. The reason this has been mentioned, is because some of the
 mathematical symbols which are used within this file, may cause problems for certain
 browsers, especially when it comes to the rendering of blackboard characters.
 
@@ -51,13 +51,13 @@ are also equal to the $\sqrt{-1}$ and serve the same role for each of the other 
 parts of a quaternion as $i$ does for the first imaginary part.
 
 You can probably start to see by now why quaternions are called such. If you haven't worked it out, it
-is because they are comprised of four parts, and the prefix "quater" comes from the Latin word for four.
+is because they are comprised of four parts, and the prefix "quater" relates to the Latin word for four.
 
 An interesting point which is worth making, is that any quaternion which has its scalar part equal to 0,
 is called a "pure quaternion". The mathematical space which quaternions reside in - or inhabit, is known
 as the Hamiltonian and is represented by the blackboard character $\mathbb{H}$. This space is named after
 the mathematician who invented quaternions, the Irishman William Rowan Hamilton. According to ChatGPT,
-$\mathbb{H}$ forms a 4-dimensional real vector space, and has the following basis;
+$\mathbb{H}$ forms a 4-dimensional real-valued vector space, and has the following basis;
 
 ```math
 \{1,i,j,k\}
@@ -110,13 +110,39 @@ ik = -j
 
 * #### Unit quaternions and the sphere of solutions for $\pm\sqrt{-1}$
 
-On the 1-dimensional real number line, there is no solution to the problem of $\pm\sqrt{-1}$.
+We saw above that;
 
-Over time, mathematicians overcame this shortcoming by developing imaginary numbers. From these
-imaginary numbers, complex numbers flowed.  which can't be represented on a real number line. Instead,
-they need to be represented in a 2-dimensional complex number plane, there are two solutions to the problem of $\pm\sqrt{-1}$.
+```math
+i^{2} = j^{2} = k^{2} = -1
+```
 
-In the 4-dimensional real number space which forms the Hamiltonian, there are infinitely many solutions to the
+This then begs the question; if we take $\sqrt{-1}$, what is the answer? Is it $\pmi$, $\pmj$, or $\pmk$? Any
+of them would appear to be possible. Furthermore, if we consider the $i$, $j$, and $k$ axes as forming 
+a 3-dimensional space, then any of these six points would appear to reside on the surface of a sphere whose radius is
+1, and which is centred on the origin.
+
+But what about other points that reside on the surface of this sphere, but don't reside on one of the
+three axes? 
+
+When considered from the perspective of the 1-dimensional real number line, there are no solutions to
+the problem of $\pm\sqrt{-1}$. Of course, there must be solutions to this problem, otherwise the 
+following equation would be illegitimate;
+
+```math
+5 + x^{2} = 4
+```
+
+Over time however, mathematicians overcame this shortcoming by developing imaginary numbers. From these
+imaginary numbers, complex numbers followed - neither of which can be represented on a real number line. Instead,
+they need to be represented in a 2-dimensional complex number plane, which can be plotted on a 
+2-dimensional graph known as an Argand diagram. Within this 2-dimensional complex number plane, there
+are two solutions to the problem of $\pm\sqrt{-1}$ -- $i$ and $-i$. It is worth mentioning that
+the 1-dimensional real number line which we discussed above, can be thought of as a small
+component of the 2-dimensional complex number plane. Hold onto this thought, as we will return
+to it in just a moment. 
+
+In complete contrast to the complex number plane, which - as we just saw, yields only two solutions to our 
+problem, the 4-dimensional real number space which forms the Hamiltonian, yields infinitely many solutions to the
 problem of $\pm\sqrt{-1}$. $i$ is one solution, but $j$ is also another solution, and so is $k$.
 
 
