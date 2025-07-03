@@ -108,7 +108,7 @@ ik = -j
 ```
 
 
-* #### Unit quaternions and the sphere of solutions for $\pm\sqrt{-1}$
+* #### Quaternion units, i.e. $i$, $j$, $k$ and the sphere of solutions for $\pm\sqrt{-1}$.
 
 We saw above that;
 
@@ -119,14 +119,14 @@ i^{2} = j^{2} = k^{2} = -1
 This then begs the question; if we take $\sqrt{-1}$, what is the answer? Is it $\pm i$, $\pm j$, or $\pm k$? Any
 of them would appear to be possible. Furthermore, if we consider the $i$, $j$, and $k$ axes as forming 
 a 3-dimensional space, then any of these six points would appear to reside on the surface of a sphere whose radius is
-1, and which is centred on the origin. Such a sphere with a unit radius - a radius in this case equal to a
-unit value of $1$, is called a unit sphere. 
+1, and which is centred on the origin of these three axes. Such a sphere with a unit radius - a radius in this
+case equal to a unit value of 1, is called a unit sphere. 
 
-But what about all of the other points that reside on the surface of this sphere, but don't reside on one of the
-three axes? Could any of these points form a sort of "composite" solution to the problem of finding $\sqrt{-1}$?
+But what about all of the other points that reside on the surface of this unit sphere, but don't happen to reside
+on one of the three axes? Do these points form a sort of "composite" solution to the problem of finding $\sqrt{-1}$?
 The answer is yes.
 
-Consider the following point;
+To help illustrate why, consider the following point;
 
 ```math
 i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
