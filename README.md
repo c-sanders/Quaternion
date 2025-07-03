@@ -157,7 +157,10 @@ i = j = k = \sqrt{-1}
 Since this point has a distance of $1$ from the origin of the $1$, $j$, and $k$ axes,
 it will also reside on the surface of the unit sphere mentioned above.
 
-It is all well and good to talk about the unit sphere in the quaternion vector space and how points
+
+* #### Unit quaternions - as opposed to quaternion units.
+
+It is all well and good to talk about the unit sphere and how points
 on its surface are solutions to the problem of $\sqrt{-1}$, but the trouble is that it only takes
 into account three of the quaternions four dimensions. How then might we possibly visualise
 4-dimensional quaternions? The video which can found [here](https://eater.net/quaternions/video/intro),
