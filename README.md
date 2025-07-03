@@ -134,9 +134,11 @@ i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
 This point should have a distance from the origin of the $i$, $j$, and $k$ axes which is equal to 1.
 
 ```math
-\sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
+\pm \sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
 ```
-
+```math
+\pm \sqrt{\Biggl(\frac{i^{2}}{3}\Biggr) + \Biggl(\frac{j^{2}}{3}\Biggr) + \Biggl(\frac{k^{2}}{3}\Biggr)}
+```
 reside on the surface of the sphere which we mentioned a moment ago. 
 
 When considered from the perspective of the 1-dimensional real number line, there are no solutions to
