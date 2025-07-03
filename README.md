@@ -137,8 +137,12 @@ This point should have a distance from the origin of the $i$, $j$, and $k$ axes 
 \pm \sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
 ```
 ```math
-\pm \sqrt{\Biggl(\frac{i^{2}}{3}\Biggr) + \Biggl(\frac{j^{2}}{3}\Biggr) + \Biggl(\frac{k^{2}}{3}\Biggr)}
+\pm \sqrt{\frac{i^{2}}{3} + \frac{j^{2}}{3} + \frac{k^{2}}{3}}
 ```
+```math
+\pm \sqrt{\frac{-1}{3} + \frac{-1}{3} + \frac{-1}{3}}
+```
+
 reside on the surface of the sphere which we mentioned a moment ago. 
 
 When considered from the perspective of the 1-dimensional real number line, there are no solutions to
