@@ -121,8 +121,21 @@ of them would appear to be possible. Furthermore, if we consider the $i$, $j$, a
 a 3-dimensional space, then any of these six points would appear to reside on the surface of a sphere whose radius is
 1, and which is centred on the origin.
 
-But what about other points that reside on the surface of this sphere, but don't reside on one of the
-three axes? 
+But what about all of the other points that reside on the surface of this sphere, but don't reside on one of the
+three axes? Could any of these points form a sort of "composite" solution to the problem of finding $\sqrt{-1}$?
+The answer is yes. Consider the following point;
+
+```math
+i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
+```
+
+This point should have a distance from the origin of the $i$, $j$, and $k$ which is equal to 1.
+
+```math
+\sqrt{\bigl(i\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(j\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(k\frac{1}{\sqrt{3}}\bigr)^{2}}
+```
+
+reside on the surface of the sphere which we mentioned a moment ago. 
 
 When considered from the perspective of the 1-dimensional real number line, there are no solutions to
 the problem of $\pm\sqrt{-1}$. Of course, there must be solutions to this problem, otherwise the 
