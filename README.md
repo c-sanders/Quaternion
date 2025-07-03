@@ -119,7 +119,8 @@ i^{2} = j^{2} = k^{2} = -1
 This then begs the question; if we take $\sqrt{-1}$, what is the answer? Is it $\pm i$, $\pm j$, or $\pm k$? Any
 of them would appear to be possible. Furthermore, if we consider the $i$, $j$, and $k$ axes as forming 
 a 3-dimensional space, then any of these six points would appear to reside on the surface of a sphere whose radius is
-1, and which is centred on the origin.
+1, and which is centred on the origin. Such a sphere with a unit radius - a radius in this case equal to a
+unit value of $1$, is called a unit sphere. 
 
 But what about all of the other points that reside on the surface of this sphere, but don't reside on one of the
 three axes? Could any of these points form a sort of "composite" solution to the problem of finding $\sqrt{-1}$?
@@ -135,19 +136,30 @@ This point should have a distance from the origin of the $i$, $j$, and $k$ axes 
 confirm this as follows;
 
 ```math
-\pm \sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
+\sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
 ```
 ```math
-\pm \sqrt{\frac{i^{2}}{3} + \frac{j^{2}}{3} + \frac{k^{2}}{3}}
+\sqrt{\frac{i^{2}}{3} + \frac{j^{2}}{3} + \frac{k^{2}}{3}}
 ```
 ```math
-\pm \sqrt{\frac{-1}{3} + \frac{-1}{3} + \frac{-1}{3}}
+\sqrt{\frac{-1}{3} + \frac{-1}{3} + \frac{-1}{3}}
 ```
 ```math
-\pm \sqrt{-1}
+\sqrt{-1}
 ```
 
-reside on the surface of the sphere which we mentioned a moment ago. 
+and recall that;
+
+```math
+i = j = k = \sqrt{-1}
+```
+
+Since this point has a distance of $1$ from the origin of the $1$, $j$, and $k$ axes,
+it will also reside on the surface of the unit sphere mentioned above.
+
+If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
+be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
+our unit sphere reside on this axis, and they are $\pm i$.
 
 When considered from the perspective of the 1-dimensional real number line, there are no solutions to
 the problem of $\pm\sqrt{-1}$. Of course, there must be solutions to this problem, otherwise the 
