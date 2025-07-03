@@ -134,7 +134,7 @@ i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
 This point should have a distance from the origin of the $i$, $j$, and $k$ which is equal to 1.
 
 ```math
-\sqrt{\bigL(i\frac{1}{\sqrt{3}}\bigR)^{2} + \bigl(j\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(k\frac{1}{\sqrt{3}}\bigr)^{2}}
+\sqrt{\BigL(i\frac{1}{\sqrt{3}}\BigR)^{2} + \Bigl(j\frac{1}{\sqrt{3}}\Bigr)^{2} + \Bigl(k\frac{1}{\sqrt{3}}\Bigr)^{2}}
 ```
 
 reside on the surface of the sphere which we mentioned a moment ago. 
