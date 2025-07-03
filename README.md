@@ -161,11 +161,11 @@ it will also reside on the surface of the unit sphere mentioned above.
 * #### Unit quaternions - as opposed to quaternion units.
 
 It is all well and good to talk about the unit sphere and how points
-on its surface are solutions to the problem of $\sqrt{-1}$, but the trouble is that it only takes
-into account three of the quaternions four dimensions. How then might we possibly visualise
+on its surface are all solutions to the problem of $\sqrt{-1}$, but the trouble is that it only takes
+into account three of the four dimensions which comprise quaternions. How then might we possibly visualise
 4-dimensional quaternions? The video which can found [here](https://eater.net/quaternions/video/intro),
 attempts to do just such a thing. In this video, the narrator mentions the term "unit quaternions".
-But what exactly is a unit quaternion? It is a quaternion which has a magnitude of $1$, or more precisely,
+But what exactly is a unit quaternion? It is a quaternion which has a magnitude of $1$ - or more precisely,
 it is a quaternion where the sum of the squares of all four components equals $1$. That is, for the
 quaternion $q$ which is defined as;
 
@@ -178,6 +178,20 @@ the sum of the squares of all four components will be equal to $1$ as follows;
 ```math
 \sqrt{a^{2} + b^{2} + c^{2} + d^{2}} = 1
 ```
+
+If we plot all of the unit quaternions in the $i$, $j$, and $k$ space that we talked about above, then
+we will end up with a sphere as shown at the start of this video. However, it must be noted that in this
+video, the axes aren't labelled as $i$, $j$, and $k$ but as $x$, $y$, and $z$. This is correct, but don't
+be misled by it - the sphere shown in the video exists in purely hyper-imaginary space.
+
+Don't be fooled by this video. It is not simply a passive video which you just watch. You can pause it
+and then interact with it, using the controls in the top left of the screen. The field $p$ in
+these controls, should contain the point or points that you want to be rotated by the quaternion $q$
+and its conjugate $q^{-1}$. This control utilises a dropdown box
+
+
+
+The video referred to just above, begins by depicting 
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
