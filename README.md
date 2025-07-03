@@ -142,6 +142,9 @@ This point should have a distance from the origin of the $i$, $j$, and $k$ axes 
 ```math
 \pm \sqrt{\frac{-1}{3} + \frac{-1}{3} + \frac{-1}{3}}
 ```
+```math
+\pm \sqrt{-1}
+```
 
 reside on the surface of the sphere which we mentioned a moment ago. 
 
