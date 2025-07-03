@@ -131,10 +131,10 @@ Consider the following point;
 i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
 ```
 
-This point should have a distance from the origin of the $i$, $j$, and $k$ which is equal to 1.
+This point should have a distance from the origin of the $i$, $j$, and $k$ axes which is equal to 1.
 
 ```math
-\sqrt{\biggl(i\frac{1}{\sqrt{3}}\biggr)^{2} + \biggl(j\frac{1}{\sqrt{3}}\biggr)^{2} + \biggl(k\frac{1}{\sqrt{3}}\biggr)^{2}}
+\sqrt{\Biggl(i\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(j\frac{1}{\sqrt{3}}\Biggr)^{2} + \Biggl(k\frac{1}{\sqrt{3}}\Biggr)^{2}}
 ```
 
 reside on the surface of the sphere which we mentioned a moment ago. 
