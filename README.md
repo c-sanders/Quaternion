@@ -158,12 +158,10 @@ Since this point has a distance of $1$ from the origin of the $1$, $j$, and $k$ 
 it will also reside on the surface of the unit sphere mentioned above.
 
 It is all well and good to talk about the unit sphere in the quaternion vector space and how points
-on its surface are solutions to the problem of $\sqrt{-1}$, but the problem is that it only takes
+on its surface are solutions to the problem of $\sqrt{-1}$, but the trouble is that it only takes
 into account three of the quaternions four dimensions. How then might we possibly visualise
-4-dimensional quaternions. The video which can found at [6] in the references below, attempts
-to do just such a thing.
-
-
+4-dimensional quaternions? The video which can found [here](https://eater.net/quaternions/video/intro),
+attempts to do just such a thing.
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
