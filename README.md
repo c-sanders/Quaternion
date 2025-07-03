@@ -161,7 +161,20 @@ It is all well and good to talk about the unit sphere in the quaternion vector s
 on its surface are solutions to the problem of $\sqrt{-1}$, but the trouble is that it only takes
 into account three of the quaternions four dimensions. How then might we possibly visualise
 4-dimensional quaternions? The video which can found [here](https://eater.net/quaternions/video/intro),
-attempts to do just such a thing.
+attempts to do just such a thing. In this video, the narrator mentions the term "unit quaternions".
+But what exactly is a unit quaternion? It is a quaternion which has a magnitude of $1$, or more precisely,
+it is a quaternion where the sum of the squares of all four components equals $1$. That is, for the
+quaternion $q$ which is defined as;
+
+```math
+q = a + ib + jc + kd
+```
+
+the sum of the squares of all four components will be equal to $1$ as follows;
+
+```math
+\sqrt{a^{2} + b^{2} + c^{2} + d^{2}} = 1
+```
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
