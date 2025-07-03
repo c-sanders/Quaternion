@@ -123,7 +123,9 @@ a 3-dimensional space, then any of these six points would appear to reside on th
 
 But what about all of the other points that reside on the surface of this sphere, but don't reside on one of the
 three axes? Could any of these points form a sort of "composite" solution to the problem of finding $\sqrt{-1}$?
-The answer is yes. Consider the following point;
+The answer is yes.
+
+Consider the following point;
 
 ```math
 i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
@@ -132,7 +134,7 @@ i\frac{1}{\sqrt{3}} + j\frac{1}{\sqrt{3}} + k\frac{1}{\sqrt{3}}
 This point should have a distance from the origin of the $i$, $j$, and $k$ which is equal to 1.
 
 ```math
-\sqrt{\bigl(i\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(j\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(k\frac{1}{\sqrt{3}}\bigr)^{2}}
+\sqrt{\bigL(i\frac{1}{\sqrt{3}}\bigR)^{2} + \bigl(j\frac{1}{\sqrt{3}}\bigr)^{2} + \bigl(k\frac{1}{\sqrt{3}}\bigr)^{2}}
 ```
 
 reside on the surface of the sphere which we mentioned a moment ago. 
