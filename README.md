@@ -63,6 +63,8 @@ $\mathbb{H}$ forms a 4-dimensional real-valued vector space, and has the followi
 \{1,i,j,k\}
 ```
 
+that is, these act as the units for each one of a quaternion's four dimensions.
+
 
 * ### Some basic laws governing quaternions.
 
@@ -154,7 +156,7 @@ and recall that;
 i = j = k = \sqrt{-1}
 ```
 
-Since this point has a distance of $1$ from the origin of the $1$, $j$, and $k$ axes,
+Since this point has a distance of $1$ from the origin of the $i$, $j$, and $k$ axes,
 it will also reside on the surface of the unit sphere mentioned above.
 
 
@@ -184,14 +186,22 @@ we will end up with a sphere as shown at the start of this video. However, it mu
 video, the axes aren't labelled as $i$, $j$, and $k$ but as $x$, $y$, and $z$. This is correct, but don't
 be misled by it - the sphere shown in the video exists in purely hyper-imaginary space.
 
-Don't be fooled by this video. It is not simply a passive video which you just watch. You can pause it
-and then interact with it, using the controls in the top left of the screen. The field $p$ in
-these controls, should contain the point or points that you want to be rotated by the quaternion $q$
-and its conjugate $q^{-1}$. This control utilises a dropdown box
+Don't be fooled by this video, as it is not actually just a video per se. It can also act a web applet 
+if you pause the video. Once you have done this, you can begin to interact with the applet and select which
+items you would like to have the applet rotate. You select such items by using the field which is labelled $p$.
+This field can be found in the top left corner of the applet, and it is actually a GUI control
+that is implemented as a dropdown box - or more simply, a dropdown. Once you click on this dropdown, it
+should present you with a list of those items that can be added into the display window to be rotated by the
+the applet.
 
+Note that this applet uses the following formula to calculate the rotation for any item that is listed within $p$.
 
+```math
+p' = qpq'
+```
 
-The video referred to just above, begins by depicting 
+If you don't pause the video referred to just above, and therefore not use it as an interactive app, then
+it will begin by depicting ...
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
