@@ -33,6 +33,8 @@ as being equal to the square root of -1. That is;
 i = \pm\sqrt{-1}
 ```
 
+![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
+
 Quaternions are most often presented in the literature, using a format which is similar to the
 following;
 
@@ -201,7 +203,7 @@ p' = qpq'
 ```
 
 If you don't pause the video referred to just above, and therefore not use it as an interactive app, then
-it will begin by depicting ...
+it will begin by depicting a unit 
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
