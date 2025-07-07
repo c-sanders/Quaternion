@@ -35,10 +35,10 @@ i = \pm\sqrt{-1}
 
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
-Figure x) Depiction of a 3-dimensional co-ordinate system with the three axes labelled $x$, $y$, and $z$. A problem
-with this depiction of the the 3-dimensional co-ordinate system arises when we attempt to find where $\sqrt{x}$ 
-when $x=-1$ lives within the co-ordinate
-system. The problem also occurs for $\sqrt{y}$ when $y=-1$ and $\sqrt{z}$ when $z=-1$.
+Figure x) Depiction of a 3-dimensional co-ordinate system with the three axes labelled $x$, $y$, and $z$ respectively.
+A problem arises with this depiction of the the 3-dimensional co-ordinate system, when we attempt to find where 
+$\sqrt{x}$ when $x=-1$ should live within the co-ordinate system. The same problem also occurs for $\sqrt{y}$
+when $y=-1$ and $\sqrt{z}$ when $z=-1$.
 
 Quaternions are most often presented in the literature, using a format which is similar to the
 following;
