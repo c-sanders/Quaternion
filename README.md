@@ -33,12 +33,16 @@ as being equal to the square root of -1. That is;
 i = \pm\sqrt{-1}
 ```
 
+![Depiction of the real number line.](./images/real_number_line.png)
+
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
 Figure x) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
 A problem arises with this depiction however, when we attempt to find where $\sqrt{x}$ should live within the 
-co-ordinate system when $x=-1$. The same problem also arises for $\sqrt{y}$ and
-$\sqrt{z}$ when $y=-1$ and $z=-1$ respectively.
+co-ordinate system when $x=-1$. The reason is that the $x$-axis only caters for numbers whose values are real - not
+numbers whose values are imaginary. The same problem also arises for $\sqrt{y}$ and $\sqrt{z}$ when $y=-1$ and $z=-1$
+respectively. The rectify this problem, these required three imaginary number lines will need to be depicted
+in a 3-dimensional co-ordinate system which lives or resides within a parallel or alternate realm. 
 
 Quaternions are most often presented in the literature, using a format which is similar to the
 following;
