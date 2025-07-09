@@ -51,9 +51,14 @@ line, is referred to as an Argand diagram.
 
 ![Depiction of an Argand diagram.](./images/argand_diagram.png)
 
+Figure 2) The graphical arrangement depicted in this figure, shows the two components of the same number line $x$ 
+being arranged such that they are orthogonal to each other. The real
+component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
+$Im(x)$. Such an arrangement of the two components of the number line is referred to as an Argand diagram. 
+
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
-Figure 2) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
+Figure 3) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
 A problem arises with this depiction however, when we attempt to find where $\sqrt{x}$ should live within the 
 co-ordinate system when $x=-1$. The reason is that the $x$-axis only caters for numbers whose values are real - not
 numbers whose values are imaginary. The same problem also arises for $\sqrt{y}$ and $\sqrt{z}$ when $y=-1$ and $z=-1$
