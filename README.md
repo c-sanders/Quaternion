@@ -36,9 +36,17 @@ i = \pm\sqrt{-1}
 ![Depiction of the real number line.](./images/real_number_line.png)
 
 Figure 1) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
-to infinity in either direction. Many numbers can find a home on this real number line, including irrational numbers
-such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers can find a home on this line. None of the imaginary numbers have
-a home on this real number line. 
+to infinity in either direction.
+
+
+Figure 1) above presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers have a home on
+this real number line, including irrational numbers such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers
+have a home on this line, and the imaginary numbers are a great example of this point. This then begs the question
+of where the imaginary numbers live? The answer is that they live on an adjunct or alternate number line which we
+call the imaginary number line. To depict these two number lines graphically, we can arrange them in an
+orthogonal manner as shown below. Such a graphical arrangement of these two axes is referred to as an Argand diagram.
+
+![Depiction of an Argand diagram.](./images/argand_diagram.png)
 
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
