@@ -35,9 +35,14 @@ i = \pm\sqrt{-1}
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
+Figure 1) A graphical depiction of the real number line $\mathbbb{R}$. In reality, this number line should extend 
+to infinity in either direction. Many numbers can find a home on this real number line, including irrational numbers
+such as $e$ and $\pi$. However, not all numbers can find a home on this line. None of the imaginary numbers have
+a home on this real number line. 
+
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
-Figure x) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
+Figure 2) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
 A problem arises with this depiction however, when we attempt to find where $\sqrt{x}$ should live within the 
 co-ordinate system when $x=-1$. The reason is that the $x$-axis only caters for numbers whose values are real - not
 numbers whose values are imaginary. The same problem also arises for $\sqrt{y}$ and $\sqrt{z}$ when $y=-1$ and $z=-1$
