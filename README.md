@@ -35,7 +35,7 @@ i = \pm\sqrt{-1}
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
-Figure 1) A graphical depiction of the real number line $\mathbbb{R}$. In reality, this number line should extend 
+Figure 1) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
 to infinity in either direction. Many numbers can find a home on this real number line, including irrational numbers
 such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers can find a home on this line. None of the imaginary numbers have
 a home on this real number line. 
