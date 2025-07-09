@@ -41,10 +41,13 @@ to infinity in either direction.
 
 Figure 1) above presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers have a home on
 this real number line, including irrational numbers such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers
-have a home on this line, and the imaginary numbers are a great example of this point. This then begs the question
+have a home on this line, and the imaginary numbers are a great example of this. This then begs the question
 of where the imaginary numbers live? The answer is that they live on an adjunct or alternate number line which we
 call the imaginary number line. To depict these two number lines graphically, we can arrange them in an
-orthogonal manner as shown below. Such a graphical arrangement of these two axes is referred to as an Argand diagram.
+orthogonal manner as shown below. In this case, we have labelled the number line $x$, such that the real
+component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
+$Im(x)$. Such a graphical arrangement of these two number lines - or should we say two components of the same number
+line, is referred to as an Argand diagram.
 
 ![Depiction of an Argand diagram.](./images/argand_diagram.png)
 
