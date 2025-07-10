@@ -34,11 +34,6 @@ i = \pm\sqrt{-1}
 ```
 
 
-* #### Number lines.
-
-![Depiction of the real number line.](./images/sets_of_numbers.jpg)
-
-
 * #### Imaginary numbers and their place on the number line.
 
 We can think of the real number line as actually being part of a bigger number line. To try and help illustrate
@@ -46,7 +41,7 @@ what is meant by this, consider the following figure.
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
-Figure 1) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
+Figure 2) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
 to infinity in either direction.
 
 This figure presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers reside on 
@@ -66,6 +61,13 @@ Figure 2) The graphical arrangement depicted in this figure, shows the two compo
 being arranged such that they are orthogonal to each other. The real
 component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
 $Im(x)$. Such an arrangement of the two components of the number line is referred to as an Argand diagram. 
+
+* #### Relationship between different types of numbers.
+
+![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
+
+Figure 1) 
+
 
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
