@@ -33,17 +33,23 @@ as being equal to the square root of -1. That is;
 i = \pm\sqrt{-1}
 ```
 
+
+* #### Imaginary numbers and their place on the number line.
+
+We can think of the real number line as actually being part of a bigger number line. To try and help illustrate
+what is meant by this, consider the following figure.
+
 ![Depiction of the real number line.](./images/real_number_line.png)
 
 Figure 1) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
 to infinity in either direction.
 
-
-Figure 1) above presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers have a home on
+This figure presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers reside on 
 this real number line, including irrational numbers such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers
-have a home on this line, and the imaginary numbers are a great example of this. This then begs the question
-of where the imaginary numbers live? The answer is that they live on an adjunct or alternate number line which we
-call the imaginary number line. To depict these two number lines graphically, we can arrange them in an
+reside on this line, and the imaginary numbers are the best example of this case. This then begs the question; if the
+imaginary numbers don't reside on this number line, then where do they reside? The answer is that they 
+reside on an adjunct or alternate number line which we call the imaginary number line. To depict these two number 
+lines graphically, we can arrange them in an
 orthogonal manner as shown below. In this case, we have labelled the number line $x$, such that the real
 component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
 $Im(x)$. Such a graphical arrangement of these two number lines - or should we say two components of the same number
