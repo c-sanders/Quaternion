@@ -62,13 +62,6 @@ being arranged such that they are orthogonal to each other. The real
 component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
 $Im(x)$. Such an arrangement of the two components of the number line is referred to as an Argand diagram. 
 
-* #### Relationship between different types of numbers.
-
-![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
-
-Figure 1) 
-
-
 ![Depiction of a 3-dimensional co-ordinate system with the axes labelled $x$, $y$, and $z$.](./images/3d_axis_space.png)
 
 Figure 3) A graphical depiction of a 3-dimensional co-ordinate system with its three axes labelled $x$, $y$, and $z$ respectively.
@@ -109,6 +102,13 @@ $\mathbb{H}$ forms a 4-dimensional real-valued vector space, and has the followi
 ```
 
 that is, these act as the units for each one of a quaternion's four dimensions.
+
+
+* #### Relationship between different types of numbers.
+
+![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
+
+Figure 1) 
 
 
 * ### Some basic laws governing quaternions.
