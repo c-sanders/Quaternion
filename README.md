@@ -268,6 +268,7 @@ where $f(i)$ will posses an initial value of;
 f(i) = 0 + i1 + j0 + k0
 ```
 
+![Relationship between different types of numbers.](./images/unit_quaternion_sphere.png)
  
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
