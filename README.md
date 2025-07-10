@@ -245,8 +245,30 @@ Note that this applet uses the following formula to calculate the rotation for a
 p' = qpq'
 ```
 
-If you don't pause the video referred to just above, and therefore not use it as an interactive app, then
-it will begin by depicting a unit 
+If you don't pause the video, and therefore not use it as an interactive app, then
+it will begin by depicting a unit quaternion sphere which is centred on the origin of the co-ordinate system. Note that
+in this case, the three axes which comprise the co-ordinate system, are labelled $x$, $y$, and $z$ respectively.
+Also note that unless you change it, the surface of the sphere should have three points marked on it. These should
+be denoted as $f(i)$, $f(j)$ and $f(k)$ respectively. The information in the top left of the app window, tells us
+that values for each of these three points is calculated using the generic formula;
+
+```math
+f(p) = q \cdot p \cdot q^{-1}
+```
+
+For the case where $p = i$, i.e. $f(i)$, the resulting equation will be;
+
+```math
+f(i) = q \cdot p \cdot q^{-1}
+```
+
+where $f(i)$ will posses an initial value of;
+
+```math
+f(i) = 0 + i1 + j0 + k0
+```
+
+ 
 
 If we were to now remove the $j$ and $k$ axes from this 3-dimensional vector space, all that we would
 be left with would be the $i$ axis, which we refer to as the imaginary number line. Only two points from
