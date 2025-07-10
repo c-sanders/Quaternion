@@ -34,6 +34,11 @@ i = \pm\sqrt{-1}
 ```
 
 
+* #### Number lines.
+
+![Depiction of the real number line.](./images/sets_of_numbers.jpg)
+
+
 * #### Imaginary numbers and their place on the number line.
 
 We can think of the real number line as actually being part of a bigger number line. To try and help illustrate
