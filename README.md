@@ -36,10 +36,15 @@ i = \pm\sqrt{-1}
 ```
 
 
-* #### Imaginary numbers and their relationship to real numbers.
+* ### The real number line and the imaginary number line.
 
-We can think of the real number line as actually being a part or a component of a bigger entity - the complex number
-space. But why is this so, and how does it come about? To help try and illustrate what we mean by this,
+Just as we can think of real numbers as being a type of, or sub-category of complex numbers, we can also think of 
+the real number line as being a part of, or a component of a bigger entity - the complex number space. The following
+Venn diagram depicts the relationship between different types of numbers.
+
+![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
+
+But why is this so, and how does it come about? To help try and illustrate what we mean by this,
 consider the following figure.
 
 ![Depiction of the real number line.](./images/real_number_line.png)
@@ -58,7 +63,7 @@ two number lines can be thought of as comprising a bigger number line - as we me
 the real and imaginary number lines can actually be thought of as components of this bigger number line.
 
 
-* #### The complex number plane and the Argand diagram. 
+* ### The complex number plane and the Argand diagram. 
 
 To depict this bigger number line graphically, we need to arrange the real and imaginary number line components somehow,
 so that we can depict them together. We can't simply place the two lines end to end, since they both go on forever.
