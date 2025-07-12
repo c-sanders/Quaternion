@@ -40,18 +40,20 @@ i = \pm\sqrt{-1}
 
 Just as we can think of real numbers as being a type of, or sub-category of complex numbers, we can also think of 
 the real number line as being a part of, or component of a bigger entity - the complex number space. The following
-figure makes use of a Venn diagram to depcit in a graphic manner, this relationship between real numbers and
+figure makes use of a Venn diagram to depict in a graphic manner, this relationship between real numbers and
 complex numbers. Not only does this diagram depict this relationship, but it also depicts the relationship
-between a number of other different types of numbers.
+between multiple different types of numbers.
 
 ![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
+
+Figure) A Venn diagram depicting the relationship between multiple different types of numbers.
 
 But why is it that we can think of the real number line as being a part of, or a component of a bigger entity - and 
 how is it that this comes about? To help try and illustrate what we mean by this, consider the following figure.
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
-Figure) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
+Figure) A graphical depiction of a tiny segment of the real number line $\mathbb{R}$. In reality, this number line should extend 
 to forever, i.e. to $\pm \infty$, in either direction.
 
 This figure presents a graphical depiction of a tiny segment of the real number line $\mathbb{R}$. Many numbers
