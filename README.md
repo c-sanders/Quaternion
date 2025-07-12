@@ -22,8 +22,11 @@ complex numbers are comprised of two parts - one real part and one imaginary par
 alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of 
 four - one real part and three imaginary parts. It is for this reason that quaternions are called such,
 since "quat" or "quater" comes from the Latin word for "four" or "four parts". When we say "real part" in the
-context of complex numbers and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
-in this same context, what we actually mean is an imaginary number.
+context of complex numbers and quaternions, what we actually mean is a real number. Similarly, when we say 
+"imaginary part" in this same context, what we actually mean is an imaginary number. Quaternions
+can be thought of as extending complex numbers by going beyond them in terms of the number of imaginary
+components which they are comprised of. It is for this reason that quaternions belong to a class or category of
+mathematical structures which are known as "hypercomplex numbers"; hyper because they "go beyond".
 
 You might also recall that an imaginary number is usually denoted by the letter $i$ and is defined
 as being equal to the square root of -1. That is;
@@ -33,22 +36,34 @@ i = \pm\sqrt{-1}
 ```
 
 
-* #### Imaginary numbers and their place on the number line.
+* #### Imaginary numbers and their relationship to real numbers.
 
-We can think of the real number line as actually being part of a bigger number line. To try and help illustrate
-what is meant by this, consider the following figure.
+We can think of the real number line as actually being part of a bigger entity - the complex number space. But
+how is this so, and how does it come about? To try and help illustrate what we mean by this, consider the following
+figure.
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
-Figure 2) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
-to infinity in either direction.
+Figure) A graphical depiction of the real number line $\mathbb{R}$. In reality, this number line should extend 
+to forever, i.e. to $\pm \infty$, in either direction.
 
-This figure presents a graphical depiction of the real number line $\mathbb{R}$. Many numbers reside on 
+This figure presents a graphical depiction of a tiny segment of the real number line $\mathbb{R}$. Many numbers
+reside on 
 this real number line, including irrational numbers such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers
-reside on this line, and the imaginary numbers are the best example of this case. This then begs the question; if the
-imaginary numbers don't reside on this number line, then where do they reside? The answer is that they 
-reside on an adjunct or alternate number line which we call the imaginary number line. To depict these two number 
-lines graphically, we can arrange them in an
+reside on this line, with the imaginary numbers being the best example of this case. This then begs the question; if the
+imaginary numbers don't reside on the real number line, then where exactly do they reside? The answer is that they 
+reside on an adjunct or alternate number line which we call the imaginary number line. When taken together, these
+two number lines can be thought of as comprising a bigger number line - as we mentioned earlier. In this case,
+the real and imaginary number lines can actually be thought of as components of this bigger number line.
+
+
+* #### The complex number plane and the Argand diagram. 
+
+To depict this bigger number line graphically, we need to arrange the real and imaginary number line components somehow,
+so that we can depict them together. We can't simply place the two lines end to end, since they both go on forever.
+Arranging the two component lines such that they are parallel to each other is also not going to work very well, so the 
+next step is to arrange them so that they are orthogonal, i.e. perpendicular, to each other. Such an arrangement is
+shown in the figure below, and in this figure thextend  we can arrange them in an
 orthogonal manner as shown below. In this case, we have labelled the number line $x$, such that the real
 component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
 $Im(x)$. Such a graphical arrangement of these two number lines - or should we say two components of the same number
