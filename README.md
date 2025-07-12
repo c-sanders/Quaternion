@@ -38,9 +38,9 @@ i = \pm\sqrt{-1}
 
 * #### Imaginary numbers and their relationship to real numbers.
 
-We can think of the real number line as actually being part of a bigger entity - the complex number space. But
-how is this so, and how does it come about? To try and help illustrate what we mean by this, consider the following
-figure.
+We can think of the real number line as actually being a part or a component of a bigger entity - the complex number
+space. But why is this so, and how does it come about? To help try and illustrate what we mean by this,
+consider the following figure.
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
@@ -50,7 +50,8 @@ to forever, i.e. to $\pm \infty$, in either direction.
 This figure presents a graphical depiction of a tiny segment of the real number line $\mathbb{R}$. Many numbers
 reside on 
 this real number line, including irrational numbers such as $\sqrt{2}$, $e$ and $\pi$. However, not all numbers
-reside on this line, with the imaginary numbers being the best example of this case. This then begs the question; if the
+reside on this line - or for that matter, can reside on this line. Imaginary numbers are one such example of
+numbers that cannot reside on this line. This then begs the question; if the
 imaginary numbers don't reside on the real number line, then where exactly do they reside? The answer is that they 
 reside on an adjunct or alternate number line which we call the imaginary number line. When taken together, these
 two number lines can be thought of as comprising a bigger number line - as we mentioned earlier. In this case,
