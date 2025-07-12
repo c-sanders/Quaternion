@@ -39,9 +39,10 @@ i = \pm\sqrt{-1}
 * ### The real number line and the imaginary number line.
 
 Just as we can think of real numbers as being a type of, or sub-category of complex numbers, we can also think of 
-the real number line as being a part of, or a component of a bigger entity - the complex number space. The following
-figure depcits this relationship in a graphic manner - by way of a Venn diagram, as well as the relationship between
-a number of other different types of numbers.
+the real number line as being a part of, or component of a bigger entity - the complex number space. The following
+figure makes use of a Venn diagram to depcit in a graphic manner, this relationship between real numbers and
+complex numbers. Not only does this diagram depict this relationship, but it also depicts the relationship
+between a number of other different types of numbers.
 
 ![Relationship between different types of numbers.](./images/sets_of_numbers.jpg)
 
