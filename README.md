@@ -20,10 +20,9 @@ But what are quaternions exactly, and how is it that they act as a mathematical 
 Let us attempt to answer these questions, by first recalling how
 complex numbers are comprised of two parts - one real part and one imaginary part. Quaternions are
 alot like complex numbers, except that rather than being comprised of two parts, they are instead comprised of 
-four - one real part and three imaginary parts. It is for this reason that quaternions
-
-When we say "real part" in the context of complex numbers
-and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
+four - one real part and three imaginary parts. It is for this reason that quaternions are called such,
+since "quat" or "quater" comes from the Latin word for "four" or "four parts". When we say "real part" in the
+context of complex numbers and quaternions, what we actually mean is a real number. Similarly, when we say "imaginary part"
 in this same context, what we actually mean is an imaginary number.
 
 You might also recall that an imaginary number is usually denoted by the letter $i$ and is defined
@@ -245,12 +244,16 @@ Note that this applet uses the following formula to calculate the rotation for a
 p' = qpq'
 ```
 
-If you don't pause the video, and therefore not use it as an interactive app, then
+where $p$ denotes the point which is to be rotated, $p'$ denotes the point which results after applying the rotation,
+$q$ denotes the rotation quaternion, and $q'$ denotes the conjugate of the rotation matrix.
+
+If you don't pause the video, and thereby not use it as an interactive app, then
 it will begin by depicting a unit quaternion sphere which is centred on the origin of the co-ordinate system. Note that
 in this case, the three axes which comprise the co-ordinate system, are labelled $x$, $y$, and $z$ respectively.
 Also note that unless you change it, the surface of the sphere should have three points marked on it. These should
-be denoted as $f(i)$, $f(j)$ and $f(k)$ respectively. The information in the top left of the app window, tells us
-that values for each of these three points is calculated using the generic formula;
+be denoted as $f(i)$ - which is represented by a green point, $f(j)$ - which is reprsented by a red point, 
+and $f(k)$ - which is reprsented by a blue point. The information in the top left of the app window, tells us
+that the values for each of these three points is calculated using the formula;
 
 ```math
 f(p) = q \cdot p \cdot q^{-1}
