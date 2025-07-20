@@ -2,7 +2,7 @@
 
 NOTE :
 
-If this file doesn't render properly in your browser, then please consider using another
+If this file doesn't render properly in your browser, then please consider using a different
 browser to try and view it. The reason this has been mentioned, is because some of the
 mathematical symbols which are used within this file, may cause problems for certain
 browsers, especially when it comes to the rendering of blackboard characters.
@@ -53,8 +53,8 @@ how is it that this comes about? To help try and illustrate what we mean by this
 
 ![Depiction of the real number line.](./images/real_number_line.png)
 
-Figure) A graphical depiction of a tiny segment of the real number line $\mathbb{R}$. In reality, this number line should extend 
-to forever, i.e. to $\pm \infty$, in either direction.
+Figure) A graphical depiction of a tiny segment of the real number line $\mathbb{R}$. In reality, this number 
+line should extend forever, i.e. to $\pm \infty$, in either direction.
 
 This figure presents a graphical depiction of a tiny segment of the real number line $\mathbb{R}$. Many numbers
 reside on 
@@ -63,20 +63,22 @@ reside on this line - or for that matter, can reside on this line. Imaginary num
 numbers that cannot reside on this line. This then begs the question; if the
 imaginary numbers don't reside on the real number line, then where exactly do they reside? The answer is that they 
 reside on an adjunct or alternate number line which we call the imaginary number line. When taken together, these
-two number lines can be thought of as comprising a bigger number line - as we mentioned earlier. In this case,
-the real and imaginary number lines can actually be thought of as components of this bigger number line.
+two number lines can be thought of as comprising a bigger entity - as we mentioned earlier. This bigger entity is
+known as the complex number space. But how exactly is it that these two 1-dimensional number lines come together
+to form a 2-dimensional space?
 
 
 * ### The complex number plane and the Argand diagram. 
 
-To depict this bigger number line graphically, we need to arrange the real and imaginary number line components somehow,
-so that we can depict them together. We can't simply place the two lines end to end, since they both go on forever.
-Arranging the two component lines such that they are parallel to each other is also not going to work very well, so the 
-next step is to arrange them so that they are orthogonal, i.e. perpendicular, to each other. Such an arrangement is
-shown in the figure below, and in this figure thextend  we can arrange them in an
-orthogonal manner as shown below. In this case, we have labelled the number line $x$, such that the real
-component of the number line is labelled $Re(x)$ and the imaginary component of the number line is labelled
-$Im(x)$. Such a graphical arrangement of these two number lines - or should we say two components of the same number
+In order to create and depict graphically this 2-dimensional complex number space, we need to be able to arrange the real
+and imaginary number lines, so that we can depict them together somehow. We can't simply place the two lines
+end to end, since they both go on forever in either direction.
+Arranging the two lines such that they are parallel to each other is not going to work very well, so the 
+only other arrangement left to try is to arrange the two number lines so that they are orthogonal, i.e. perpendicular,
+to each other. Such an arrangement is
+shown in the figure below, and in this figure we have labelled the number line $x$, such that the real
+number line is labelled $Re(x)$ and the imaginary number line is labelled $Im(x)$. Such a graphical arrangement of
+these two number lines - or should we say two components of the same number
 line, is referred to as an Argand diagram.
 
 ![Depiction of an Argand diagram.](./images/argand_diagram.png)
